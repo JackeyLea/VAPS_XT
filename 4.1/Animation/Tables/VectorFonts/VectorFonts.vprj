@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE project PUBLIC "-//PresagisCanada//DTD VapsXT 18.0" "file:///C:/VAPSXTDTD/VapsXT_18.dtd">
+
+<project name="VectorFonts.vprj">
+  <file name="Font.vcls" path="%VAPSXT_DIR%\\Projects\\StandardElements\\Fonts"/>
+  <file name="F1.vimp" path="%VAPSXT_DIR%\\Projects\\StandardElements\\Fonts"/>
+  <file name="F2.vimp" path="%VAPSXT_DIR%\\Projects\\StandardElements\\Fonts"/>
+  <file name="F3.vimp" path="%VAPSXT_DIR%\\Projects\\StandardElements\\Fonts"/>
+  <file name="F4.vimp" path="%VAPSXT_DIR%\\Projects\\StandardElements\\Fonts"/>
+  <file name="F4SystemFont.vimp" path="%VAPSXT_DIR%\\Projects\\StandardElements\\Fonts"/>
+</project>

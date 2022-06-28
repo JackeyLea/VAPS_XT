@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE dataDescription>
+
+<dataDescription name="Float50">
+     
+   <field>
+      <name>array</name>
+      <type>float</type>
+      <cardinality>50</cardinality>
+   </field> 
+
+</dataDescription>

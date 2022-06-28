@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE table PUBLIC "-//PresagisCanada//DTD VapsXT 18.0" "file:///C:/VAPSXTDTD/VapsXT_18.dtd">
+
+<table name="ErrorCodeTable" type="ErrorCodeTableType">
+  <model>
+    <prop name="DefaultValue">VXT_RT_START_CURSOR_POS_OUT_OF_RANGE</prop>
+    <prop name="BkColor">stdBlack</prop>
+    <prop name="DrawingUnit">Hundredth_Of_MM</prop>
+  </model>
+  <object name="VXT_RT_START_CURSOR_POS_OUT_OF_RANGE" class="ErrorCodeTableElement" guid="933ffabb-580a-4d1e-ade3-7688d26adce7">
+    <model>
+      <prop name="ErrorCode">10000</prop>
+      <prop name="ErrorMsg">The starting cursor position is out of range</prop>
+    </model>
+  </object>
+</table>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE table PUBLIC "-//PresagisCanada//DTD VapsXT 18.0" "file:///C:/VAPSXTDTD/VapsXT_18.dtd">
+
+<table name="AudioTable" type="AudioTableType">
+  <model>
+    <prop name="DefaultValue">Track_1</prop>
+    <prop name="BkColor">stdBlack</prop>
+    <prop name="DrawingUnit">Hundredth_Of_MM</prop>
+  </model>
+  <object name="Track_1" class="AudioTableElement" guid="773fcc5c-e539-4bea-a534-cc36e00737a8">
+    <model>
+      <prop name="AudioFile">.\Media\ABigHardWorld.mp3</prop>
+      <prop name="AudioId">0</prop>
+    </model>
+  </object>
+</table>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE project PUBLIC "-//PresagisCanada//DTD VapsXT 18.0" "file:///C:/VAPSXTDTD/VapsXT_18.dtd">
+
+<project name="AudioTable.vprj">
+  <file name="AudioTable.vtbl" path=".\\"/>
+</project>

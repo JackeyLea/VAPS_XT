@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+=============================================================================
+ $URL: http://svn/svn/VAPSXT178/branches/XT/4.1/VAPSXT_DIR/Projects/StandardRootProjects/Tables/Attributes/DefLinestyles.vltb $
+
+ Code Category: Certifiable
+
+ Version: $Revision: 44819 $
+
+ Last Revision $Author: mdosogne $
+
+ Last Revision $Date: 2015-02-04 17:16:55 -0500 (Wed, 04 Feb 2015) $
+
+ IMPORTANT NOTICE: This software program (&quot;Software&quot;) including the source
+ code is a confidential and/or proprietary product of Presagis Canada Inc.
+ and/or its subsidiaries and affiliated companies. (&quot;Presagis&quot;) and is
+ protected by copyright laws. The use of the Software is subject to the terms
+ of the Presagis Software License Agreement.
+
+ (c) Copyright 2014, All Rights Reserved.
+
+ AVIS IMPORTANT: Ce logiciel incluant le code source est de l&apos;information
+ confidentielle et/ou propriete de Presagis Canada Inc. et/ou ses filiales et
+ compagnies affiliees (&quot;Presagis&quot;) et est protege par les lois sur le droit
+ d&apos;auteur. L&apos;utilisation de ce logiciel est sujet aux termes d&apos;une licence de
+ Presagis.
+
+ (c) Copyright 2014, Tous droits réservés.
+
+=============================================================================
+-->
+
+<!DOCTYPE linestyle_table PUBLIC "-//PresagisCanada//DTD VapsXT 18.0" "file:///C:/VAPSXTDTD/VapsXT_18.dtd">
+
+<linestyle_table name="DefLinestyles" max_num_linestyles="127">
+  <bit16_linestyle_defn index="0" name="stdLine1" width="1" bits="FFFF" ljoin="miter" lcap="butt"/>
+  <bit16_linestyle_defn index="1" name="stdLine2" width="2" bits="FFFF" ljoin="miter" lcap="butt"/>
+  <bit16_linestyle_defn index="2" name="stdLine3" width="3" bits="FFFF" ljoin="miter" lcap="butt"/>
+  <bit16_linestyle_defn index="3" name="stdLine4" width="4" bits="FFFF" ljoin="miter" lcap="round"/>
+  <bit16_linestyle_defn index="4" name="stdLine5" width="5" bits="FFFF" ljoin="miter" lcap="round"/>
+  <bit16_linestyle_defn index="5" name="stdLine6" width="6" bits="FFFF" ljoin="miter" lcap="round"/>
+  <bit16_linestyle_defn index="6" name="stdLine7" width="7" bits="FFFF" ljoin="miter" lcap="round"/>
+  <bit16_linestyle_defn index="7" name="stdLine8" width="8" bits="FFFF" ljoin="miter" lcap="round"/>
+  <bit16_linestyle_defn index="8" name="stdLine0_5" width="0.5" bits="FFFF" ljoin="miter" lcap="butt"/>
+  <bit16_linestyle_defn index="9" name="vxtPoints1" width="1" bits="5555" ljoin="miter" lcap="butt"/>
+  <bit16_linestyle_defn index="10" name="vxtDot1" width="1" bits="8888" ljoin="miter" lcap="butt"/>
+  <bit16_linestyle_defn index="11" name="vxtDot2" width="2" bits="CCCC" ljoin="miter" lcap="butt"/>
+  <bit16_linestyle_defn index="12" name="vxtDot3" width="3" bits="7070" ljoin="miter" lcap="butt"/>
+  <bit16_linestyle_defn index="13" name="vxtDot4" width="4" bits="F0F0" ljoin="miter" lcap="butt"/>
+  <bit16_linestyle_defn index="14" name="vxtDash1" width="1" bits="8F8F" ljoin="miter" lcap="butt"/>
+  <bit16_linestyle_defn index="15" name="vxtDash2" width="2" bits="8F8F" ljoin="miter" lcap="butt"/>
+  <bit16_linestyle_defn index="16" name="vxtDash3" width="3" bits="8F8F" ljoin="miter" lcap="butt"/>
+  <bit16_linestyle_defn index="17" name="vxtDashDot1" width="1" bits="F02" ljoin="miter" lcap="butt"/>
+  <bit16_linestyle_defn index="18" name="vxtDashDot2" width="2" bits="F06" ljoin="miter" lcap="butt"/>
+  <bit16_linestyle_defn index="19" name="vxtDashDot3" width="3" bits="1FC7" ljoin="miter" lcap="butt"/>
+</linestyle_table>

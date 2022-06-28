@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE table PUBLIC "-//PresagisCanada//DTD VapsXT 18.0" "file:///C:/VAPSXTDTD/VapsXT_18.dtd">
+
+<table name="EasingFunctionTable" type="EasingFunctionTableType">
+  <model>
+    <prop name="DefaultValue">Linear</prop>
+    <prop name="BkColor">stdBlack</prop>
+    <prop name="DrawingUnit">Inch</prop>
+  </model>
+  <object name="Linear" class="EasingFunctionTableElement" guid="f1e693f6-1854-4b12-8b14-c2c3a7dbfc0f">
+    <model>
+      <prop name="EasingFunctionId">0</prop>
+      <arrayprop name="ControlPoints" capacity="2" size="2">
+        <xyentry x="0" y="0"/>
+        <xyentry x="1" y="1"/>
+      </arrayprop>
+    </model>
+  </object>
+  <object name="Ease" class="EasingFunctionTableElement" guid="f19a46a0-81ed-4eb9-a9bd-6fdc6908f9b5">
+    <model>
+      <prop name="EasingFunctionId">1</prop>
+      <arrayprop name="ControlPoints" capacity="2" size="2">
+        <xyentry x="0.25" y="0.1"/>
+        <xyentry x="0.25" y="1"/>
+      </arrayprop>
+    </model>
+  </object>
+  <object name="EaseIn" class="EasingFunctionTableElement" guid="a38c9e12-88da-4cbf-b374-d77122de619a">
+    <model>
+      <prop name="EasingFunctionId">2</prop>
+      <arrayprop name="ControlPoints" capacity="2" size="2">
+        <xyentry x="0.42" y="0"/>
+        <xyentry x="1" y="1"/>
+      </arrayprop>
+    </model>
+  </object>
+  <object name="EaseOut" class="EasingFunctionTableElement" guid="aba8dfd9-fbe7-48a5-94af-efd6ecd831a8">
+    <model>
+      <prop name="EasingFunctionId">3</prop>
+      <arrayprop name="ControlPoints" capacity="2" size="2">
+        <xyentry x="0" y="0"/>
+        <xyentry x="0.58" y="1"/>
+      </arrayprop>
+    </model>
+  </object>
+  <object name="EaseInOut" class="EasingFunctionTableElement" guid="fd2bfa96-1e18-48de-afca-50f959faa6f1">
+    <model>
+      <prop name="EasingFunctionId">4</prop>
+      <arrayprop name="ControlPoints" capacity="2" size="2">
+        <xyentry x="0.42" y="0"/>
+        <xyentry x="0.58" y="1"/>
+      </arrayprop>
+    </model>
+  </object>
+  <object name="EaseInBack" class="EasingFunctionTableElement" guid="01dfddbd-0ea6-483a-a27b-61dfb12eb3d5">
+    <model>
+      <prop name="EasingFunctionId">5</prop>
+      <arrayprop name="ControlPoints" capacity="2" size="2">
+        <xyentry x="0.3333" y="0"/>
+        <xyentry x="0.6666" y="-0.5725"/>
+      </arrayprop>
+    </model>
+  </object>
+  <object name="EaseOutBack" class="EasingFunctionTableElement" guid="5785b1bf-409e-4478-9775-8695aac32bcc">
+    <model>
+      <prop name="EasingFunctionId">6</prop>
+      <arrayprop name="ControlPoints" capacity="2" size="2">
+        <xyentry x="0.3333" y="1.5725"/>
+        <xyentry x="0.6666" y="1"/>
+      </arrayprop>
+    </model>
+  </object>
+  <object name="EaseInBounce" class="EasingFunctionTableElement" guid="faa59f17-e6da-4c63-be18-e12c1a6d06e9">
+    <model>
+      <prop name="EasingFunctionId">7</prop>
+      <arrayprop name="ControlPoints" capacity="11" size="11">
+        <xyentry x="0.0303" y="0.0208"/>
+        <xyentry x="0.0606" y="0.0208"/>
+        <xyentry x="0.0909" y="0"/>
+        <xyentry x="0.1515" y="0.0833"/>
+        <xyentry x="0.2121" y="0.0833"/>
+        <xyentry x="0.2727" y="0"/>
+        <xyentry x="0.3939" y="0.3333"/>
+        <xyentry x="0.5151" y="0.3333"/>
+        <xyentry x="0.6363" y="0"/>
+        <xyentry x="0.7575" y="0.6666"/>
+        <xyentry x="0.8787" y="1"/>
+      </arrayprop>
+    </model>
+  </object>
+  <object name="EaseOutBounce" class="EasingFunctionTableElement" guid="06239606-e2a2-4f60-bf21-c72248d8cd01">
+    <model>
+      <prop name="EasingFunctionId">8</prop>
+      <arrayprop name="ControlPoints" capacity="11" size="11">
+        <xyentry x="0.1212" y="0"/>
+        <xyentry x="0.2525" y="0.3333"/>
+        <xyentry x="0.3636" y="1"/>
+        <xyentry x="0.4949" y="0.6666"/>
+        <xyentry x="0.6161" y="0.6666"/>
+        <xyentry x="0.7373" y="1"/>
+        <xyentry x="0.7979" y="0.9166"/>
+        <xyentry x="0.8585" y="0.9166"/>
+        <xyentry x="0.9191" y="1"/>
+        <xyentry x="0.9494" y="0.9792"/>
+        <xyentry x="0.9797" y="0.9792"/>
+      </arrayprop>
+    </model>
+  </object>
+</table>

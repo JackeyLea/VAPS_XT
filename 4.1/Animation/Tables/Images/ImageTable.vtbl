@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE table PUBLIC "-//PresagisCanada//DTD VapsXT 18.0" "file:///C:/VAPSXTDTD/VapsXT_18.dtd">
+
+<table name="ImageTable" type="ImageTableType">
+  <model>
+    <prop name="DefaultValue">Default</prop>
+    <prop name="BkColor">stdBlack</prop>
+    <prop name="DrawingUnit">Pixel</prop>
+  </model>
+  <object name="Default" class="ImageTableElement" guid="2991d9bf-8d98-4601-b310-8d86a4fe8437">
+    <model>
+      <prop name="ImageFile">alphaball.png</prop>
+      <prop name="PictureReference">0</prop>
+      <prop name="NumberOfPixelsWidth">256</prop>
+      <prop name="NumberOfPixelsHeight">256</prop>
+      <prop name="PictureFormat">RGBA_8</prop>
+      <prop name="ColorTableFormat">NOT_ASSIGNED</prop>
+    </model>
+  </object>
+  <object name="SkinDesignStandard" class="ImageTableElement" guid="45b74ecd-e46f-4b61-a563-2830739fe809">
+    <model>
+      <prop name="ImageFile">interface-elements-design-standard-150ppi.png</prop>
+      <prop name="PictureReference">1</prop>
+      <prop name="NumberOfPixelsWidth">256</prop>
+      <prop name="NumberOfPixelsHeight">256</prop>
+      <prop name="PictureFormat">RGBA_8</prop>
+      <prop name="ColorTableFormat">NOT_ASSIGNED</prop>
+    </model>
+  </object>
+</table>

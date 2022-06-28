@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE object_implementation PUBLIC "-//PresagisCanada//DTD VapsXT 18.0" "file:///C:/VAPSXTDTD/VapsXT_18.dtd">
+
+<object_implementation impl_name="ScrollingScale" class="ScrollingScale">
+  <built_object_implementation>
+    <model>
+      <prop name="BkColor">stdBlack</prop>
+      <prop name="DrawingUnit">Hundredth_Of_MM</prop>
+      <prop name="RulerUnits">CM</prop>
+      <structprop name="Grid">
+        <field name="Visible">FALSE</field>
+        <field name="SubDivisions">2</field>
+        <field name="Color">stdWhite</field>
+        <structfield name="Snap">
+          <field name="Enabled">FALSE</field>
+          <field name="SensitivityPercent">50</field>
+        </structfield>
+      </structprop>
+    </model>
+    <object name="ClippingRegion_1" class="ClippingRegion" guid="1cb589f9-f8fc-4fc9-8e16-520506b877a6">
+      <model>
+        <prop name="IsVisible">TRUE</prop>
+        <xyprop name="Point1" x="1750" y="3150"/>
+        <xyprop name="Point2" x="4250" y="10150"/>
+        <prop name="EnableClipping">TRUE</prop>
+      </model>
+      <object name="SimpleGroup_1" class="SimpleGroup" guid="241e8cd0-34b0-4444-8659-ba071acd0e10">
+        <model>
+          <xyprop name="Position" x="2667" y="6578.6"/>
+          <prop name="IsVisible">TRUE</prop>
+          <prop name="Enable">TRUE</prop>
+          <prop name="UpdateChildrenOnlyIfVisible">FALSE</prop>
+        </model>
+        <object name="TransformGroup_1" class="TransformGroup" guid="fcbd74cf-1545-4ad0-af0f-bf41908cd7e6">
+          <model>
+            <prop name="IsVisible">TRUE</prop>
+            <xyprop name="Position" x="-3500" y="0"/>
+            <prop name="Rotation">0</prop>
+            <xyprop name="Scaling" x="1" y="1"/>
+            <prop name="RotateInEditMode">TRUE</prop>
+            <prop name="ScaleInEditMode">TRUE</prop>
+          </model>
+          <object name="Line_1" class="Line" guid="201de94f-c87d-4625-bdff-b4d9276af7ec">
+            <model>
+              <prop name="IsVisible">TRUE</prop>
+              <prop name="IsHaloed">FALSE</prop>
+              <prop name="IsAntialiased">TRUE</prop>
+              <prop name="HaloColor">stdBlack</prop>
+              <prop name="HaloLineWidth">1</prop>
+              <prop name="PenAttributes">Local</prop>
+              <prop name="PenColor">stdWhite</prop>
+              <prop name="LineStyle">stdLine1</prop>
+              <prop name="PenOpacity">stdOpaque</prop>
+              <xyprop name="Point1" x="4675" y="1650"/>
+              <xyprop name="Point2" x="4675" y="12050"/>
+            </model>
+          </object>
+          <object name="LinearTicks_1" class="LinearTicks" guid="f5057bae-2d9b-46b9-8c12-baae48771de5">
+            <model>
+              <prop name="IsVisible">TRUE</prop>
+              <prop name="IsHaloed">FALSE</prop>
+              <prop name="IsAntialiased">TRUE</prop>
+              <prop name="HaloColor">stdBlack</prop>
+              <prop name="HaloLineWidth">1</prop>
+              <prop name="PenAttributes">Local</prop>
+              <prop name="PenColor">stdWhite</prop>
+              <prop name="LineStyle">stdLine1</prop>
+              <prop name="PenOpacity">stdOpaque</prop>
+              <xyprop name="StartPoint" x="4150" y="1650"/>
+              <xyprop name="EndPoint" x="4150" y="12050"/>
+              <prop name="TickLength">1050</prop>
+              <prop name="NumTicks">4</prop>
+            </model>
+          </object>
+          <object name="LinearTicks_2" class="LinearTicks" guid="9d5c0e4e-d0a3-4df7-85a8-7e9719aff699">
+            <model>
+              <prop name="IsVisible">TRUE</prop>
+              <prop name="IsHaloed">FALSE</prop>
+              <prop name="IsAntialiased">TRUE</prop>
+              <prop name="HaloColor">stdBlack</prop>
+              <prop name="HaloLineWidth">1</prop>
+              <prop name="PenAttributes">Local</prop>
+              <prop name="PenColor">stdWhite</prop>
+              <prop name="LineStyle">stdLine1</prop>
+              <prop name="PenOpacity">stdOpaque</prop>
+              <xyprop name="StartPoint" x="4375" y="1650"/>
+              <xyprop name="EndPoint" x="4375" y="12050"/>
+              <prop name="TickLength">600</prop>
+              <prop name="NumTicks">16</prop>
+            </model>
+          </object>
+          <object name="Text_1" class="Text" guid="e50535e7-08d4-409d-9f2a-c555ad583223">
+            <model>
+              <prop name="IsVisible">TRUE</prop>
+              <prop name="PenAttributes">Local</prop>
+              <prop name="IsOutlined">FALSE</prop>
+              <prop name="PenColor">stdWhite</prop>
+              <prop name="FillAttributes">Local</prop>
+              <prop name="IsFilled">TRUE</prop>
+              <prop name="FillColor">stdWhite</prop>
+              <xyprop name="Position" x="3600" y="1650"/>
+              <xyprop name="Size" x="0" y="0"/>
+              <prop name="DataString">0</prop>
+              <prop name="FontId">F3</prop>
+              <prop name="IsBold">FALSE</prop>
+              <prop name="IsItalic">FALSE</prop>
+              <prop name="IsAntialiased">TRUE</prop>
+              <prop name="IsStrikethrough">FALSE</prop>
+              <prop name="IsUnderlined">FALSE</prop>
+              <prop name="Alignment">MIDDLE_CENTER</prop>
+              <prop name="PointSize">12</prop>
+              <prop name="Thickness">1</prop>
+            </model>
+          </object>
+          <object name="Text_2" class="Text" guid="d9b5b004-9b25-4782-a726-f5eaaa248d8e">
+            <model>
+              <prop name="IsVisible">TRUE</prop>
+              <prop name="PenAttributes">Local</prop>
+              <prop name="IsOutlined">FALSE</prop>
+              <prop name="PenColor">stdWhite</prop>
+              <prop name="FillAttributes">Local</prop>
+              <prop name="IsFilled">TRUE</prop>
+              <prop name="FillColor">stdWhite</prop>
+              <xyprop name="Position" x="3600" y="5116.37"/>
+              <xyprop name="Size" x="0" y="0"/>
+              <prop name="DataString">100</prop>
+              <prop name="FontId">F3</prop>
+              <prop name="IsBold">FALSE</prop>
+              <prop name="IsItalic">FALSE</prop>
+              <prop name="IsAntialiased">TRUE</prop>
+              <prop name="IsStrikethrough">FALSE</prop>
+              <prop name="IsUnderlined">FALSE</prop>
+              <prop name="Alignment">MIDDLE_CENTER</prop>
+              <prop name="PointSize">12</prop>
+              <prop name="Thickness">1</prop>
+            </model>
+          </object>
+          <object name="Text_3" class="Text" guid="14f0ad45-8014-4b72-a1bd-9181d0a1e89e">
+            <model>
+              <prop name="IsVisible">TRUE</prop>
+              <prop name="PenAttributes">Local</prop>
+              <prop name="IsOutlined">FALSE</prop>
+              <prop name="PenColor">stdWhite</prop>
+              <prop name="FillAttributes">Local</prop>
+              <prop name="IsFilled">TRUE</prop>
+              <prop name="FillColor">stdWhite</prop>
+              <xyprop name="Position" x="3600" y="8583.33"/>
+              <xyprop name="Size" x="0" y="0"/>
+              <prop name="DataString">200</prop>
+              <prop name="FontId">F3</prop>
+              <prop name="IsBold">FALSE</prop>
+              <prop name="IsItalic">FALSE</prop>
+              <prop name="IsAntialiased">TRUE</prop>
+              <prop name="IsStrikethrough">FALSE</prop>
+              <prop name="IsUnderlined">FALSE</prop>
+              <prop name="Alignment">MIDDLE_CENTER</prop>
+              <prop name="PointSize">12</prop>
+              <prop name="Thickness">1</prop>
+            </model>
+          </object>
+          <object name="Text_4" class="Text" guid="e9aaaca2-c31e-4b46-93fc-095fea8a9147">
+            <model>
+              <prop name="IsVisible">TRUE</prop>
+              <prop name="PenAttributes">Local</prop>
+              <prop name="IsOutlined">FALSE</prop>
+              <prop name="PenColor">stdWhite</prop>
+              <prop name="FillAttributes">Local</prop>
+              <prop name="IsFilled">TRUE</prop>
+              <prop name="FillColor">stdWhite</prop>
+              <xyprop name="Position" x="3600" y="12050"/>
+              <xyprop name="Size" x="0" y="0"/>
+              <prop name="DataString">300</prop>
+              <prop name="FontId">F3</prop>
+              <prop name="IsBold">FALSE</prop>
+              <prop name="IsItalic">FALSE</prop>
+              <prop name="IsAntialiased">TRUE</prop>
+              <prop name="IsStrikethrough">FALSE</prop>
+              <prop name="IsUnderlined">FALSE</prop>
+              <prop name="Alignment">MIDDLE_CENTER</prop>
+              <prop name="PointSize">12</prop>
+              <prop name="Thickness">1</prop>
+            </model>
+          </object>
+        </object>
+      </object>
+    </object>
+    <connections>
+      <connection src=".ClipPos.Y" dest="TransformGroup_1.Position.Y"/>
+    </connections>
+    <transitions/>
+  </built_object_implementation>
+</object_implementation>

@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE object_implementation PUBLIC "-//PresagisCanada//DTD VapsXT 18.0" "file:///C:/VAPSXTDTD/VapsXT_18.dtd">
+
+<object_implementation impl_name="RollingDigits" class="RollingDigits">
+  <built_object_implementation>
+    <model>
+      <prop name="BkColor">stdBlack</prop>
+      <prop name="DrawingUnit">Hundredth_Of_MM</prop>
+      <prop name="RulerUnits">CM</prop>
+      <structprop name="Grid">
+        <field name="Visible">FALSE</field>
+        <field name="SubDivisions">2</field>
+        <field name="Color">stdWhite</field>
+        <structfield name="Snap">
+          <field name="Enabled">FALSE</field>
+          <field name="SensitivityPercent">50</field>
+        </structfield>
+      </structprop>
+      <prop name="LoadFormats">TRUE</prop>
+    </model>
+    <object name="FloatData_1" class="FloatData" guid="4dc12439-e4d5-42bc-a556-5a362e6561c6">
+      <model>
+        <prop name="Value">0</prop>
+      </model>
+    </object>
+    <object name="IntData_1" class="IntData" guid="2198f271-ae23-4a70-ac36-7209c6c3c8a7">
+      <model>
+        <prop name="Value">0</prop>
+      </model>
+    </object>
+    <object name="IntData_2" class="IntData" guid="b9bbb01e-dd28-4737-9986-dfb76d28b0ec">
+      <model>
+        <prop name="Value">0</prop>
+      </model>
+    </object>
+    <object name="IntData_3" class="IntData" guid="4cd8b663-df41-4de9-bbe1-8d1c783d5021">
+      <model>
+        <prop name="Value">0</prop>
+      </model>
+    </object>
+    <object name="ScrollingDigit_1" class="ScrollingDigit" guid="7dca9dc9-207a-4bda-85a9-175503cb90cd">
+      <model>
+        <xyprop name="Position" x="6800" y="6850"/>
+        <prop name="Value">0</prop>
+      </model>
+    </object>
+    <object name="ScrollingDigit_2" class="ScrollingDigit" guid="d482e43a-6f9c-48e4-933d-a16316bcb2fe">
+      <model>
+        <xyprop name="Position" x="6150" y="6850"/>
+        <prop name="Value">0</prop>
+      </model>
+    </object>
+    <object name="ScrollingDigit_3" class="ScrollingDigit" guid="01452371-d926-40c7-9c98-4b8d506e94fd">
+      <model>
+        <xyprop name="Position" x="5500" y="6850"/>
+        <prop name="Value">0</prop>
+      </model>
+    </object>
+    <object name="Line_1" class="Line" guid="73bf6a2d-2ac1-4d89-b312-6c848b994419">
+      <model>
+        <prop name="IsVisible">TRUE</prop>
+        <prop name="IsHaloed">FALSE</prop>
+        <prop name="IsAntialiased">TRUE</prop>
+        <prop name="HaloColor">stdBlack</prop>
+        <prop name="HaloLineWidth">1</prop>
+        <prop name="PenAttributes">Local</prop>
+        <prop name="PenColor">stdWhite</prop>
+        <prop name="LineStyle">stdLine1</prop>
+        <prop name="PenOpacity">stdOpaque</prop>
+        <xyprop name="Point1" x="5100" y="6200"/>
+        <xyprop name="Point2" x="7200" y="6200"/>
+      </model>
+    </object>
+    <object name="Line_2" class="Line" guid="7fdbcc30-fc63-45f3-aa0d-bd14cdea5fcc">
+      <model>
+        <prop name="IsVisible">TRUE</prop>
+        <prop name="IsHaloed">FALSE</prop>
+        <prop name="IsAntialiased">TRUE</prop>
+        <prop name="HaloColor">stdBlack</prop>
+        <prop name="HaloLineWidth">1</prop>
+        <prop name="PenAttributes">Local</prop>
+        <prop name="PenColor">stdWhite</prop>
+        <prop name="LineStyle">stdLine1</prop>
+        <prop name="PenOpacity">stdOpaque</prop>
+        <xyprop name="Point1" x="7200" y="7500"/>
+        <xyprop name="Point2" x="7200" y="6200"/>
+      </model>
+    </object>
+    <object name="Line_3" class="Line" guid="95617091-5107-47d6-8e90-6c2d1a66eb58">
+      <model>
+        <prop name="IsVisible">TRUE</prop>
+        <prop name="IsHaloed">FALSE</prop>
+        <prop name="IsAntialiased">TRUE</prop>
+        <prop name="HaloColor">stdBlack</prop>
+        <prop name="HaloLineWidth">1</prop>
+        <prop name="PenAttributes">Local</prop>
+        <prop name="PenColor">stdWhite</prop>
+        <prop name="LineStyle">stdLine1</prop>
+        <prop name="PenOpacity">stdOpaque</prop>
+        <xyprop name="Point1" x="5100" y="7500"/>
+        <xyprop name="Point2" x="7200" y="7500"/>
+      </model>
+    </object>
+    <object name="Line_4" class="Line" guid="86fae6c6-31fd-452a-9f24-ecd52cc4bca8">
+      <model>
+        <prop name="IsVisible">TRUE</prop>
+        <prop name="IsHaloed">FALSE</prop>
+        <prop name="IsAntialiased">TRUE</prop>
+        <prop name="HaloColor">stdBlack</prop>
+        <prop name="HaloLineWidth">1</prop>
+        <prop name="PenAttributes">Local</prop>
+        <prop name="PenColor">stdWhite</prop>
+        <prop name="LineStyle">stdLine1</prop>
+        <prop name="PenOpacity">stdOpaque</prop>
+        <xyprop name="Point1" x="4800" y="6850"/>
+        <xyprop name="Point2" x="5100" y="7500"/>
+      </model>
+    </object>
+    <object name="Line_5" class="Line" guid="6e5c1048-55e8-4a10-8812-42c72b083fea">
+      <model>
+        <prop name="IsVisible">TRUE</prop>
+        <prop name="IsHaloed">FALSE</prop>
+        <prop name="IsAntialiased">TRUE</prop>
+        <prop name="HaloColor">stdBlack</prop>
+        <prop name="HaloLineWidth">1</prop>
+        <prop name="PenAttributes">Local</prop>
+        <prop name="PenColor">stdWhite</prop>
+        <prop name="LineStyle">stdLine1</prop>
+        <prop name="PenOpacity">stdOpaque</prop>
+        <xyprop name="Point1" x="4800" y="6850"/>
+        <xyprop name="Point2" x="5100" y="6200"/>
+      </model>
+    </object>
+    <object name="ScrollingScale_1" class="ScrollingScale" guid="ea558122-b9cc-4379-a2e1-4b7cdeb9a491">
+      <model>
+        <xyprop name="Position" x="0" y="-1400"/>
+        <prop name="Value">0</prop>
+        <xyprop name="ClipPos" x="0" y="-100"/>
+      </model>
+    </object>
+    <object name="KnobFinite_1" class="KnobFinite" guid="eefd12cb-22f7-47b0-87f4-e23e8b30179a">
+      <model>
+        <prop name="IsVisible">TRUE</prop>
+        <xyprop name="Position" x="0" y="0"/>
+        <prop name="StartValue">0</prop>
+        <prop name="EndValue">300</prop>
+        <prop name="CurrentValue">0</prop>
+        <prop name="StartAngle">150</prop>
+        <prop name="SweptAngle">-120</prop>
+        <prop name="ActiveAreaRadius">1800</prop>
+        <prop name="ActiveAreaStartAngle">0</prop>
+        <prop name="ActiveAreaSweptAngle">360</prop>
+        <prop name="ActiveAreaIncludeCenter">TRUE</prop>
+      </model>
+      <object name="Circle_1" class="Circle" guid="53d18242-35c5-4d30-8a27-2e81e453d6bc">
+        <model>
+          <prop name="IsVisible">TRUE</prop>
+          <prop name="IsHaloed">FALSE</prop>
+          <prop name="IsOutlined">FALSE</prop>
+          <prop name="IsFilled">TRUE</prop>
+          <prop name="IsAntialiased">TRUE</prop>
+          <prop name="HaloColor">stdBlack</prop>
+          <prop name="HaloLineWidth">1</prop>
+          <prop name="FillAttributes">Local</prop>
+          <prop name="FillStyle">SolidColor</prop>
+          <prop name="FillColor">stdBlue</prop>
+          <prop name="FillGradient">vxtDoNotUse</prop>
+          <prop name="Pattern">stdSolid</prop>
+          <prop name="FillOpacity">stdOpaque</prop>
+          <prop name="PenAttributes">Local</prop>
+          <prop name="PenColor">stdWhite</prop>
+          <prop name="LineStyle">stdLine1</prop>
+          <prop name="PenOpacity">stdOpaque</prop>
+          <xyprop name="Center" x="0" y="0"/>
+          <prop name="Radius">1500</prop>
+        </model>
+      </object>
+      <object name="Line_6" class="Line" guid="e718ee81-b5f6-46e9-a227-36d5894dc8dc">
+        <model>
+          <prop name="IsVisible">TRUE</prop>
+          <prop name="IsHaloed">FALSE</prop>
+          <prop name="IsAntialiased">TRUE</prop>
+          <prop name="HaloColor">stdBlack</prop>
+          <prop name="HaloLineWidth">1</prop>
+          <prop name="PenAttributes">Local</prop>
+          <prop name="PenColor">stdWhite</prop>
+          <prop name="LineStyle">stdLine3</prop>
+          <prop name="PenOpacity">stdOpaque</prop>
+          <xyprop name="Point1" x="750" y="0"/>
+          <xyprop name="Point2" x="1500" y="0"/>
+        </model>
+      </object>
+    </object>
+    <connections>
+      <connection src="KnobFinite_1.CurrentValue" dest="FloatData_1.Value"/>
+      <connection src="ClipToInt(FloatData_1.Value)" dest="IntData_1.Value"/>
+      <connection src="IntData_1.Value / 10" dest="IntData_2.Value"/>
+      <connection src="IntData_2.Value / 10" dest="IntData_3.Value"/>
+      <connection src="FloatData_1.Value" dest="ScrollingDigit_1.Value"/>
+      <connection src="ClipToFloat(IntData_2.Value) + IfElse(IntData_1.Value % 10 == 9,FloatData_1.Value - ClipToFloat(IntData_1.Value),0)" dest="ScrollingDigit_2.Value"/>
+      <connection src="ClipToFloat(IntData_3.Value) + IfElse(IntData_1.Value % 100 == 99,FloatData_1.Value - ClipToFloat(IntData_1.Value),0)" dest="ScrollingDigit_3.Value"/>
+      <connection src="LinearInterpolation(0, 300 du, -100 du, -10400 du, FloatData_1.Value * 1 du)" dest="ScrollingScale_1.ClipPos.Y"/>
+    </connections>
+    <transitions/>
+  </built_object_implementation>
+</object_implementation>

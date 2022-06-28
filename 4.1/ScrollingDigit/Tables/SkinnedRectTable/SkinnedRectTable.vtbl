@@ -1,0 +1,1148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+=============================================================================
+ $URL: http://svn/svn/VAPSXT178/branches/XT/4.1/VAPSXT_DIR/Projects/StandardRootProjects/Tables/SkinnedRectTable/SkinnedRectTable.vtbl $
+
+ Code Category: Certifiable
+
+ Version: $Revision: 44819 $
+
+ Last Revision $Author: mdosogne $
+
+ Last Revision $Date: 2015-02-04 17:16:55 -0500 (Wed, 04 Feb 2015) $
+
+ IMPORTANT NOTICE: This software program (&quot;Software&quot;) including the source
+ code is a confidential and/or proprietary product of Presagis Canada Inc.
+ and/or its subsidiaries and affiliated companies. (&quot;Presagis&quot;) and is
+ protected by copyright laws. The use of the Software is subject to the terms
+ of the Presagis Software License Agreement.
+
+ (c) Copyright 2014, All Rights Reserved.
+
+ AVIS IMPORTANT: Ce logiciel incluant le code source est de l&apos;information
+ confidentielle et/ou propriete de Presagis Canada Inc. et/ou ses filiales et
+ compagnies affiliees (&quot;Presagis&quot;) et est protege par les lois sur le droit
+ d&apos;auteur. L&apos;utilisation de ce logiciel est sujet aux termes d&apos;une licence de
+ Presagis.
+
+ (c) Copyright 2014, Tous droits réservés.
+
+=============================================================================
+-->
+
+<!DOCTYPE table PUBLIC "-//PresagisCanada//DTD VapsXT 18.0" "file:///C:/VAPSXTDTD/VapsXT_18.dtd">
+
+<table name="SkinnedRectTable" type="SkinnedRectTableType">
+  <model>
+    <prop name="DefaultValue">Skin_Button_Enabled</prop>
+    <prop name="BkColor">stdBlack</prop>
+    <prop name="DrawingUnit">Pixel</prop>
+  </model>
+  <object name="Skin_Transparent" class="SkinnedRectTableElement" guid="94cb9a18-b691-4a6c-b6f9-45310fc278a5">
+    <model>
+      <prop name="SkinId">0</prop>
+      <prop name="ImageId">SkinDesignStandard</prop>
+      <prop name="Left">117</prop>
+      <prop name="Right">118</prop>
+      <prop name="Top">209</prop>
+      <prop name="Bottom">208</prop>
+      <prop name="CenterLeft">117</prop>
+      <prop name="CenterRight">118</prop>
+      <prop name="CenterTop">209</prop>
+      <prop name="CenterBottom">208</prop>
+    </model>
+  </object>
+  <object name="Skin_ActiveArea_Enabled" class="SkinnedRectTableElement" guid="2511e590-6bd0-48b9-a143-e033922dccbf">
+    <model>
+      <prop name="SkinId">1</prop>
+      <prop name="ImageId">SkinDesignStandard</prop>
+      <prop name="Left">119</prop>
+      <prop name="Right">128</prop>
+      <prop name="Top">209</prop>
+      <prop name="Bottom">200</prop>
+      <prop name="CenterLeft">123</prop>
+      <prop name="CenterRight">124</prop>
+      <prop name="CenterTop">205</prop>
+      <prop name="CenterBottom">204</prop>
+    </model>
+  </object>
+  <object name="Skin_ActiveArea_Disabled" class="SkinnedRectTableElement" guid="98fc0ea2-2521-4adb-8cf1-8e5ff08dcfcc">
+    <model>
+      <prop name="SkinId">2</prop>
+      <prop name="ImageId">SkinDesignStandard</prop>
+      <prop name="Left">139</prop>
+      <prop name="Right">148</prop>
+      <prop name="Top">209</prop>
+      <prop name="Bottom">200</prop>
+      <prop name="CenterLeft">143</prop>
+      <prop name="CenterRight">144</prop>
+      <prop name="CenterTop">205</prop>
+      <prop name="CenterBottom">204</prop>
+    </model>
+  </object>
+  <object name="Skin_ActiveArea_Focus" class="SkinnedRectTableElement" guid="8926a3b8-dabf-4ed8-9d37-95f0dd710f42">
+    <model>
+      <prop name="SkinId">3</prop>
+      <prop name="ImageId">SkinDesignStandard</prop>
+      <prop name="Left">149</prop>
+      <prop name="Right">158</prop>
+      <prop name="Top">209</prop>
+      <prop name="Bottom">200</prop>
+      <prop name="CenterLeft">153</prop>
+      <prop name="CenterRight">154</prop>
+      <prop name="CenterTop">205</prop>
+      <prop name="CenterBottom">204</prop>
+    </model>
+  </object>
+  <object name="Skin_ActiveArea_Highlight" class="SkinnedRectTableElement" guid="d0e6e546-4b2b-4134-a7b0-1fbb48725f75">
+    <model>
+      <prop name="SkinId">4</prop>
+      <prop name="ImageId">SkinDesignStandard</prop>
+      <prop name="Left">129</prop>
+      <prop name="Right">141</prop>
+      <prop name="Top">199</prop>
+      <prop name="Bottom">187</prop>
+      <prop name="CenterLeft">135</prop>
+      <prop name="CenterRight">136</prop>
+      <prop name="CenterTop">193</prop>
+      <prop name="CenterBottom">192</prop>
+    </model>
+  </object>
+  <object name="Skin_ActiveArea_Pressed" class="SkinnedRectTableElement" guid="585e8b76-9d15-4516-a006-33842cfee34b">
+    <model>
+      <prop name="SkinId">5</prop>
+      <prop name="ImageId">SkinDesignStandard</prop>
+      <prop name="Left">146</prop>
+      <prop name="Right">158</prop>
+      <prop name="Top">199</prop>
+      <prop name="Bottom">187</prop>
+      <prop name="CenterLeft">152</prop>
+      <prop name="CenterRight">153</prop>
+      <prop name="CenterTop">193</prop>
+      <prop name="CenterBottom">192</prop>
+    </model>
+  </object>
+  <object name="Skin_Button_Enabled" class="SkinnedRectTableElement" guid="67a2c66c-76d8-48f6-9633-7eb766383f">
+    <model>
+      <prop name="SkinId">7</prop>
+      <prop name="ImageId">SkinDesignStandard</prop>
+      <prop name="Left">73</prop>
+      <prop name="Right">89</prop>
+      <prop name="Top">256</prop>
+      <prop name="Bottom">168</prop>
+      <prop name="CenterLeft">79</prop>
+      <prop name="CenterRight">84</prop>
+      <prop name="CenterTop">250</prop>
+      <prop name="CenterBottom">174</prop>
+    </model>
+  </object>
+  <object name="Skin_Button_Disabled" class="SkinnedRectTableElement" guid="8aba0bad-443a-4010-a9f0-9fc0aa1081e0">
+    <model>
+      <prop name="SkinId">8</prop>
+      <prop name="ImageId">SkinDesignStandard</prop>
+      <prop name="Left">90</prop>
+      <prop name="Right">106</prop>
+      <prop name="Top">256</prop>
+      <prop name="Bottom">168</prop>
+      <prop name="CenterLeft">95</prop>
+      <prop name="CenterRight">101</prop>
+      <prop name="CenterTop">250</prop>
+      <prop name="CenterBottom">173</prop>
+    </model>
+  </object>
+  <object name="Skin_Button_Focus" class="SkinnedRectTableElement" guid="5dd64985-d44b-4c01-a335-8dd5c429ef75">
+    <model>
+      <prop name="SkinId">9</prop>
+      <prop name="ImageId">SkinDesignStandard</prop>
+      <prop name="Left">56</prop>
+      <prop name="Right">72</prop>
+      <prop name="Top">256</prop>
+      <prop name="Bottom">168</prop>
+      <prop name="CenterLeft">63</prop>
+      <prop name="CenterRight">65</prop>
+      <prop name="CenterTop">248</prop>
+      <prop name="CenterBottom">176</prop>
+    </model>
+  </object>
+  <object name="Skin_Button_Highlight" class="SkinnedRectTableElement" guid="72e576a2-3aad-4534-9927-5531622ec527">
+    <model>
+      <prop name="SkinId">10</prop>
+      <prop name="ImageId">SkinDesignStandard</prop>
+      <prop name="Left">39</prop>
+      <prop name="Right">55</prop>
+      <prop name="Top">256</prop>
+      <prop name="Bottom">168</prop>
+      <prop name="CenterLeft">44</prop>
+      <prop name="CenterRight">50</prop>
+      <prop name="CenterTop">250</prop>
+      <prop name="CenterBottom">173</prop>
+    </model>
+  </object>
+  <object name="Skin_Button_Pressed" class="SkinnedRectTableElement" guid="d61e6306-413c-491f-9560-72b66b3251ab">
+    <model>
+      <prop name="SkinId">12</prop>
+      <prop name="ImageId">SkinDesignStandard</prop>
+      <prop name="Left">22</prop>
+      <prop name="Right">38</prop>
+      <prop name="Top">166</prop>
+      <prop name="Bottom">78</prop>
+      <prop name="CenterLeft">28</prop>
+      <prop name="CenterRight">33</prop>
+      <prop name="CenterTop">159</prop>
+      <prop name="CenterBottom">84</prop>
+    </model>
+  </object>
+  <object name="Skin_Button_Selected_Enabled" class="SkinnedRectTableElement" guid="2827f18f-0ce3-4801-9a2f-ed0df862f79b">
+    <model>
+      <prop name="SkinId">14</prop>
+      <prop name="ImageId">SkinDesignStandard</prop>
+      <prop name="Left">73</prop>
+      <prop name="Right">89</prop>
+      <prop name="Top">166</prop>
+      <prop name="Bottom">78</prop>
+      <prop name="CenterLeft">79</prop>
+      <prop name="CenterRight">83</prop>
+      <prop name="CenterTop">160</prop>
+      <prop name="CenterBottom">84</prop>
+    </model>
+  </object>
+  <object name="Skin_Button_Selected_Disabled" class="SkinnedRectTableElement" guid="b60201a1-471a-429a-8ef1-21f29a2b3b4c">
+    <model>
+      <prop name="SkinId">16</prop>
+      <prop name="ImageId">SkinDesignStandard</prop>
+      <prop name="Left">90</prop>
+      <prop name="Right">106</prop>
+      <prop name="Top">166</prop>
+      <prop name="Bottom">78</prop>
+      <prop name="CenterLeft">96</prop>
+      <prop name="CenterRight">100</prop>
+      <prop name="CenterTop">160</prop>
+      <prop name="CenterBottom">84</prop>
+    </model>
+  </object>
+  <object name="Skin_Button_Selected_Focus" class="SkinnedRectTableElement" guid="030793e3-9476-4702-80c0-643286f82ff1">
+    <model>
+      <prop name="SkinId">17</prop>
+      <prop name="ImageId">SkinDesignStandard</prop>
+      <prop name="Left">56</prop>
+      <prop name="Right">72</prop>
+      <prop name="Top">166</prop>
+      <prop name="Bottom">78</prop>
+      <prop name="CenterLeft">63</prop>
+      <prop name="CenterRight">65</prop>
+      <prop name="CenterTop">160</prop>
+      <prop name="CenterBottom">84</prop>
+    </model>
+  </object>
+  <object name="Skin_Button_Selected_Highlight" class="SkinnedRectTableElement" guid="f76cdbd0-eb5a-45e7-a9f4-9ef749bb82bf">
+    <model>
+      <prop name="SkinId">18</prop>
+      <prop name="ImageId">SkinDesignStandard</prop>
+      <prop name="Left">39</prop>
+      <prop name="Right">55</prop>
+      <prop name="Top">166</prop>
+      <prop name="Bottom">78</prop>
+      <prop name="CenterLeft">46</prop>
+      <prop name="CenterRight">49</prop>
+      <prop name="CenterTop">159</prop>
+      <prop name="CenterBottom">84</prop>
+    </model>
+  </object>
+  <object name="Skin_ComboBox_Button_Disabled" class="SkinnedRectTableElement" guid="648609fe-e407-49d6-afb1-52df4bd89a6b">
+    <model>
+      <prop name="SkinId">20</prop>
+      <prop name="ImageId">SkinDesignStandard</prop>
+      <prop name="Left">182</prop>
+      <prop name="Right">194</prop>
+      <prop name="Top">132</prop>
+      <prop name="Bottom">102</prop>
+      <prop name="CenterLeft">187</prop>
+      <prop name="CenterRight">189</prop>
+      <prop name="CenterTop">126</prop>
+      <prop name="CenterBottom">106</prop>
+    </model>
+  </object>
+  <object name="Skin_ComboBox_Button_Enabled" class="SkinnedRectTableElement" guid="c135b7ea-8fc1-4783-b1bb-afb9a10a8712">
+    <model>
+      <prop name="SkinId">21</prop>
+      <prop name="ImageId">SkinDesignStandard</prop>
+      <prop name="Left">182</prop>
+      <prop name="Right">194</prop>
+      <prop name="Top">194</prop>
+      <prop name="Bottom">164</prop>
+      <prop name="CenterLeft">187</prop>
+      <prop name="CenterRight">189</prop>
+      <prop name="CenterTop">188</prop>
+      <prop name="CenterBottom">168</prop>
+    </model>
+  </object>
+  <object name="Skin_ComboBox_Button_Focus" class="SkinnedRectTableElement" guid="7d21f808-80fe-4c8c-91f4-42e542a67186">
+    <model>
+      <prop name="SkinId">22</prop>
+      <prop name="ImageId">SkinDesignStandard</prop>
+      <prop name="Left">182</prop>
+      <prop name="Right">194</prop>
+      <prop name="Top">163</prop>
+      <prop name="Bottom">133</prop>
+      <prop name="CenterLeft">187</prop>
+      <prop name="CenterRight">189</prop>
+      <prop name="CenterTop">157</prop>
+      <prop name="CenterBottom">138</prop>
+    </model>
+  </object>
+  <object name="Skin_ComboBox_Button_Highlight" class="SkinnedRectTableElement" guid="26144967-741e-4a6d-85b0-ced73e73c56a">
+    <model>
+      <prop name="SkinId">23</prop>
+      <prop name="ImageId">SkinDesignStandard</prop>
+      <prop name="Left">182</prop>
+      <prop name="Right">194</prop>
+      <prop name="Top">101</prop>
+      <prop name="Bottom">71</prop>
+      <prop name="CenterLeft">187</prop>
+      <prop name="CenterRight">189</prop>
+      <prop name="CenterTop">95</prop>
+      <prop name="CenterBottom">75</prop>
+    </model>
+  </object>
+  <object name="Skin_ComboBox_Button_Pressed" class="SkinnedRectTableElement" guid="14dc7d25-f1d8-484e-94c1-89615b60b88e">
+    <model>
+      <prop name="SkinId">25</prop>
+      <prop name="ImageId">SkinDesignStandard</prop>
+      <prop name="Left">182</prop>
+      <prop name="Right">194</prop>
+      <prop name="Top">70</prop>
+      <prop name="Bottom">40</prop>
+      <prop name="CenterLeft">187</prop>
+      <prop name="CenterRight">189</prop>
+      <prop name="CenterTop">64</prop>
+      <prop name="CenterBottom">44</prop>
+    </model>
+  </object>
+  <object name="Skin_ComboBox_DownButton_Disabled" class="SkinnedRectTableElement" guid="7062ad91-937d-4ba0-adba-2bb42a541e42">
+    <model>
+      <prop name="SkinId">30</prop>
+      <prop name="ImageId">SkinDesignStandard</prop>
+      <prop name="Left">226</prop>
+      <prop name="Right">256</prop>
+      <prop name="Top">132</prop>
+      <prop name="Bottom">102</prop>
+      <prop name="CenterLeft">232</prop>
+      <prop name="CenterRight">250</prop>
+      <prop name="CenterTop">126</prop>
+      <prop name="CenterBottom">108</prop>
+    </model>
+  </object>
+  <object name="Skin_ComboBox_DownButton_Enabled" class="SkinnedRectTableElement" guid="17cbf37f-2e81-47af-87bc-60af536b4af3">
+    <model>
+      <prop name="SkinId">31</prop>
+      <prop name="ImageId">SkinDesignStandard</prop>
+      <prop name="Left">226</prop>
+      <prop name="Right">256</prop>
+      <prop name="Top">194</prop>
+      <prop name="Bottom">164</prop>
+      <prop name="CenterLeft">232</prop>
+      <prop name="CenterRight">250</prop>
+      <prop name="CenterTop">188</prop>
+      <prop name="CenterBottom">170</prop>
+    </model>
+  </object>
+  <object name="Skin_ComboBox_DownButton_Highlight" class="SkinnedRectTableElement" guid="d21a1228-d73a-497a-8571-1720a2d24002">
+    <model>
+      <prop name="SkinId">32</prop>
+      <prop name="ImageId">SkinDesignStandard</prop>
+      <prop name="Left">226</prop>
+      <prop name="Right">256</prop>
+      <prop name="Top">101</prop>
+      <prop name="Bottom">71</prop>
+      <prop name="CenterLeft">232</prop>
+      <prop name="CenterRight">250</prop>
+      <prop name="CenterTop">95</prop>
+      <prop name="CenterBottom">77</prop>
+    </model>
+  </object>
+  <object name="Skin_ComboBox_DownButton_Pressed" class="SkinnedRectTableElement" guid="6d79e970-acf8-42bd-a524-826cfb159d4b">
+    <model>
+      <prop name="SkinId">33</prop>
+      <prop name="ImageId">SkinDesignStandard</prop>
+      <prop name="Left">226</prop>
+      <prop name="Right">256</prop>
+      <prop name="Top">70</prop>
+      <prop name="Bottom">40</prop>
+      <prop name="CenterLeft">232</prop>
+      <prop name="CenterRight">250</prop>
+      <prop name="CenterTop">64</prop>
+      <prop name="CenterBottom">46</prop>
+    </model>
+  </object>
+  <object name="Skin_Scroll_DownButton_Disabled" class="SkinnedRectTableElement" guid="0cf4c9b8-636f-43d2-95e4-f94283952c45">
+    <model>
+      <prop name="SkinId">40</prop>
+      <prop name="ImageId">SkinDesignStandard</prop>
+      <prop name="Left">226</prop>
+      <prop name="Right">256</prop>
+      <prop name="Top">225</prop>
+      <prop name="Bottom">195</prop>
+      <prop name="CenterLeft">231</prop>
+      <prop name="CenterRight">251</prop>
+      <prop name="CenterTop">220</prop>
+      <prop name="CenterBottom">200</prop>
+    </model>
+  </object>
+  <object name="Skin_Scroll_DownButton_Enabled" class="SkinnedRectTableElement" guid="7d9cc4c0-97e0-4085-be38-7612396140b8">
+    <model>
+      <prop name="SkinId">41</prop>
+      <prop name="ImageId">SkinDesignStandard</prop>
+      <prop name="Left">164</prop>
+      <prop name="Right">194</prop>
+      <prop name="Top">225</prop>
+      <prop name="Bottom">195</prop>
+      <prop name="CenterLeft">169</prop>
+      <prop name="CenterRight">189</prop>
+      <prop name="CenterTop">220</prop>
+      <prop name="CenterBottom">200</prop>
+    </model>
+  </object>
+  <object name="Skin_Scroll_DownButton_Pressed" class="SkinnedRectTableElement" guid="c222c716-a31e-4108-a69a-d0916235623a">
+    <model>
+      <prop name="SkinId">42</prop>
+      <prop name="ImageId">SkinDesignStandard</prop>
+      <prop name="Left">195</prop>
+      <prop name="Right">225</prop>
+      <prop name="Top">225</prop>
+      <prop name="Bottom">195</prop>
+      <prop name="CenterLeft">200</prop>
+      <prop name="CenterRight">220</prop>
+      <prop name="CenterTop">220</prop>
+      <prop name="CenterBottom">200</prop>
+    </model>
+  </object>
+  <object name="Skin_Scroll_UpButton_Disabled" class="SkinnedRectTableElement" guid="f0781657-7e84-4a1b-a8d6-492bfad9a6bb">
+    <model>
+      <prop name="SkinId">43</prop>
+      <prop name="ImageId">SkinDesignStandard</prop>
+      <prop name="Left">226</prop>
+      <prop name="Right">256</prop>
+      <prop name="Top">256</prop>
+      <prop name="Bottom">226</prop>
+      <prop name="CenterLeft">231</prop>
+      <prop name="CenterRight">251</prop>
+      <prop name="CenterTop">251</prop>
+      <prop name="CenterBottom">231</prop>
+    </model>
+  </object>
+  <object name="Skin_Scroll_UpButton_Enabled" class="SkinnedRectTableElement" guid="4ec4643c-5655-4d1d-acd3-b813fc472deb">
+    <model>
+      <prop name="SkinId">44</prop>
+      <prop name="ImageId">SkinDesignStandard</prop>
+      <prop name="Left">164</prop>
+      <prop name="Right">194</prop>
+      <prop name="Top">256</prop>
+      <prop name="Bottom">226</prop>
+      <prop name="CenterLeft">169</prop>
+      <prop name="CenterRight">189</prop>
+      <prop name="CenterTop">251</prop>
+      <prop name="CenterBottom">231</prop>
+    </model>
+  </object>
+  <object name="Skin_Scroll_UpButton_Pressed" class="SkinnedRectTableElement" guid="b58649aa-5d25-476a-a43d-7e6c78be7595">
+    <model>
+      <prop name="SkinId">45</prop>
+      <prop name="ImageId">SkinDesignStandard</prop>
+      <prop name="Left">195</prop>
+      <prop name="Right">225</prop>
+      <prop name="Top">256</prop>
+      <prop name="Bottom">226</prop>
+      <prop name="CenterLeft">200</prop>
+      <prop name="CenterRight">220</prop>
+      <prop name="CenterTop">251</prop>
+      <prop name="CenterBottom">231</prop>
+    </model>
+  </object>
+  <object name="Skin_Scroll_Button_Disabled" class="SkinnedRectTableElement" guid="86235026-4d82-41fd-b5c1-4f44e8ed78b2">
+    <model>
+      <prop name="SkinId">46</prop>
+      <prop name="ImageId">SkinDesignStandard</prop>
+      <prop name="Left">152</prop>
+      <prop name="Right">158</prop>
+      <prop name="Top">256</prop>
+      <prop name="Bottom">210</prop>
+      <prop name="CenterLeft">154</prop>
+      <prop name="CenterRight">156</prop>
+      <prop name="CenterTop">253</prop>
+      <prop name="CenterBottom">213</prop>
+    </model>
+  </object>
+  <object name="Skin_Scroll_Button_Enabled" class="SkinnedRectTableElement" guid="0bc7cd-4a82-46f8-8a33-23007d07242f">
+    <model>
+      <prop name="SkinId">47</prop>
+      <prop name="ImageId">SkinDesignStandard</prop>
+      <prop name="Left">136</prop>
+      <prop name="Right">142</prop>
+      <prop name="Top">256</prop>
+      <prop name="Bottom">210</prop>
+      <prop name="CenterLeft">138</prop>
+      <prop name="CenterRight">140</prop>
+      <prop name="CenterTop">253</prop>
+      <prop name="CenterBottom">213</prop>
+    </model>
+  </object>
+  <object name="Skin_Scroll_Button_Pressed" class="SkinnedRectTableElement" guid="56ae0326-d2d3-43c9-b2ad-88b108edc44e">
+    <model>
+      <prop name="SkinId">48</prop>
+      <prop name="ImageId">SkinDesignStandard</prop>
+      <prop name="Left">144</prop>
+      <prop name="Right">150</prop>
+      <prop name="Top">256</prop>
+      <prop name="Bottom">210</prop>
+      <prop name="CenterLeft">146</prop>
+      <prop name="CenterRight">148</prop>
+      <prop name="CenterTop">253</prop>
+      <prop name="CenterBottom">213</prop>
+    </model>
+  </object>
+  <object name="Skin_Scroll_Background" class="SkinnedRectTableElement" guid="a196b816-bcef-4e9e-83bd-9348007395ae">
+    <model>
+      <prop name="SkinId">49</prop>
+      <prop name="ImageId">SkinDesignStandard</prop>
+      <prop name="Left">118</prop>
+      <prop name="Right">124</prop>
+      <prop name="Top">256</prop>
+      <prop name="Bottom">210</prop>
+      <prop name="CenterLeft">121</prop>
+      <prop name="CenterRight">122</prop>
+      <prop name="CenterTop">249</prop>
+      <prop name="CenterBottom">211</prop>
+    </model>
+  </object>
+  <object name="Skin_Scroll_Background_Disabled" class="SkinnedRectTableElement" guid="4b786ad0-0cf7-423b-bb53-65336b34045c">
+    <model>
+      <prop name="SkinId">50</prop>
+      <prop name="ImageId">SkinDesignStandard</prop>
+      <prop name="Left">126</prop>
+      <prop name="Right">132</prop>
+      <prop name="Top">256</prop>
+      <prop name="Bottom">210</prop>
+      <prop name="CenterLeft">129</prop>
+      <prop name="CenterRight">130</prop>
+      <prop name="CenterTop">249</prop>
+      <prop name="CenterBottom">211</prop>
+    </model>
+  </object>
+  <object name="Skin_Scroll_LeftButton_Disabled" class="SkinnedRectTableElement" guid="84bedcb8-6c4f-4cd1-b022-08187317adf3">
+    <model>
+      <prop name="SkinId">51</prop>
+      <prop name="ImageId">SkinDesignStandard</prop>
+      <prop name="Left">108</prop>
+      <prop name="Right">138</prop>
+      <prop name="Top">123</prop>
+      <prop name="Bottom">93</prop>
+      <prop name="CenterLeft">113</prop>
+      <prop name="CenterRight">133</prop>
+      <prop name="CenterTop">118</prop>
+      <prop name="CenterBottom">98</prop>
+    </model>
+  </object>
+  <object name="Skin_Scroll_LeftButton_Enabled" class="SkinnedRectTableElement" guid="5bcf20f1-ef06-49f1-a1d9-5dff1b3a76b9">
+    <model>
+      <prop name="SkinId">52</prop>
+      <prop name="ImageId">SkinDesignStandard</prop>
+      <prop name="Left">108</prop>
+      <prop name="Right">138</prop>
+      <prop name="Top">185</prop>
+      <prop name="Bottom">155</prop>
+      <prop name="CenterLeft">113</prop>
+      <prop name="CenterRight">133</prop>
+      <prop name="CenterTop">180</prop>
+      <prop name="CenterBottom">160</prop>
+    </model>
+  </object>
+  <object name="Skin_Scroll_LeftButton_Pressed" class="SkinnedRectTableElement" guid="081401cf-fe20-4012-b10e-27b84b50b3f4">
+    <model>
+      <prop name="SkinId">53</prop>
+      <prop name="ImageId">SkinDesignStandard</prop>
+      <prop name="Left">108</prop>
+      <prop name="Right">138</prop>
+      <prop name="Top">154</prop>
+      <prop name="Bottom">124</prop>
+      <prop name="CenterLeft">113</prop>
+      <prop name="CenterRight">133</prop>
+      <prop name="CenterTop">149</prop>
+      <prop name="CenterBottom">130</prop>
+    </model>
+  </object>
+  <object name="Skin_Scroll_RightButton_Disabled" class="SkinnedRectTableElement" guid="a24cceb4-2c05-40d2-b348-3ec7b10f4066">
+    <model>
+      <prop name="SkinId">54</prop>
+      <prop name="ImageId">SkinDesignStandard</prop>
+      <prop name="Left">139</prop>
+      <prop name="Right">169</prop>
+      <prop name="Top">123</prop>
+      <prop name="Bottom">93</prop>
+      <prop name="CenterLeft">144</prop>
+      <prop name="CenterRight">164</prop>
+      <prop name="CenterTop">118</prop>
+      <prop name="CenterBottom">98</prop>
+    </model>
+  </object>
+  <object name="Skin_Scroll_RightButton_Enabled" class="SkinnedRectTableElement" guid="917ad023-5623-43b1-97bf-11659045a23b">
+    <model>
+      <prop name="SkinId">55</prop>
+      <prop name="ImageId">SkinDesignStandard</prop>
+      <prop name="Left">139</prop>
+      <prop name="Right">169</prop>
+      <prop name="Top">185</prop>
+      <prop name="Bottom">155</prop>
+      <prop name="CenterLeft">144</prop>
+      <prop name="CenterRight">164</prop>
+      <prop name="CenterTop">180</prop>
+      <prop name="CenterBottom">160</prop>
+    </model>
+  </object>
+  <object name="Skin_Scroll_RightButton_Pressed" class="SkinnedRectTableElement" guid="11cfa85c-3387-464e-9ac3-bb347f0eb8af">
+    <model>
+      <prop name="SkinId">56</prop>
+      <prop name="ImageId">SkinDesignStandard</prop>
+      <prop name="Left">139</prop>
+      <prop name="Right">169</prop>
+      <prop name="Top">154</prop>
+      <prop name="Bottom">124</prop>
+      <prop name="CenterLeft">144</prop>
+      <prop name="CenterRight">164</prop>
+      <prop name="CenterTop">149</prop>
+      <prop name="CenterBottom">129</prop>
+    </model>
+  </object>
+  <object name="Skin_ScrollList_Background" class="SkinnedRectTableElement" guid="1f2a71e3-fc1b-40b1-87e9-bc0429b57d32">
+    <model>
+      <prop name="SkinId">60</prop>
+      <prop name="ImageId">SkinDesignStandard</prop>
+      <prop name="Left">0</prop>
+      <prop name="Right">8</prop>
+      <prop name="Top">256</prop>
+      <prop name="Bottom">0</prop>
+      <prop name="CenterLeft">4</prop>
+      <prop name="CenterRight">5</prop>
+      <prop name="CenterTop">252</prop>
+      <prop name="CenterBottom">3</prop>
+    </model>
+  </object>
+  <object name="Skin_ScrollList_Background_Disabled" class="SkinnedRectTableElement" guid="ba9a4992-4991-410f-8c54-bd626844da90">
+    <model>
+      <prop name="SkinId">61</prop>
+      <prop name="ImageId">SkinDesignStandard</prop>
+      <prop name="Left">9</prop>
+      <prop name="Right">17</prop>
+      <prop name="Top">256</prop>
+      <prop name="Bottom">0</prop>
+      <prop name="CenterLeft">13</prop>
+      <prop name="CenterRight">14</prop>
+      <prop name="CenterTop">252</prop>
+      <prop name="CenterBottom">3</prop>
+    </model>
+  </object>
+  <object name="Skin_ScrollList_Selected" class="SkinnedRectTableElement" guid="b378c5c0-2d25-4066-bc51-97c66bf9ccda">
+    <model>
+      <prop name="SkinId">62</prop>
+      <prop name="ImageId">SkinDesignStandard</prop>
+      <prop name="Left">108</prop>
+      <prop name="Right">115</prop>
+      <prop name="Top">238</prop>
+      <prop name="Bottom">231</prop>
+      <prop name="CenterLeft">110</prop>
+      <prop name="CenterRight">113</prop>
+      <prop name="CenterTop">236</prop>
+      <prop name="CenterBottom">233</prop>
+    </model>
+  </object>
+  <object name="Skin_ScrollList_Selected_Disabled" class="SkinnedRectTableElement" guid="1027e0c7-12ad-4bac-bb39-7c722b966492">
+    <model>
+      <prop name="SkinId">63</prop>
+      <prop name="ImageId">SkinDesignStandard</prop>
+      <prop name="Left">108</prop>
+      <prop name="Right">115</prop>
+      <prop name="Top">220</prop>
+      <prop name="Bottom">213</prop>
+      <prop name="CenterLeft">110</prop>
+      <prop name="CenterRight">113</prop>
+      <prop name="CenterTop">218</prop>
+      <prop name="CenterBottom">215</prop>
+    </model>
+  </object>
+  <object name="Skin_ScrollList_Highlight" class="SkinnedRectTableElement" guid="8059bf27-1903-466b-9d4c-8b8bca40664c">
+    <model>
+      <prop name="SkinId">64</prop>
+      <prop name="ImageId">SkinDesignStandard</prop>
+      <prop name="Left">108</prop>
+      <prop name="Right">115</prop>
+      <prop name="Top">256</prop>
+      <prop name="Bottom">249</prop>
+      <prop name="CenterLeft">110</prop>
+      <prop name="CenterRight">113</prop>
+      <prop name="CenterTop">254</prop>
+      <prop name="CenterBottom">251</prop>
+    </model>
+  </object>
+  <object name="Skin_ScrollList_Selected_Highlight" class="SkinnedRectTableElement" guid="4908c851-03a7-4318-9845-3129ab5d22e7">
+    <model>
+      <prop name="SkinId">68</prop>
+      <prop name="ImageId">SkinDesignStandard</prop>
+      <prop name="Left">108</prop>
+      <prop name="Right">115</prop>
+      <prop name="Top">247</prop>
+      <prop name="Bottom">240</prop>
+      <prop name="CenterLeft">110</prop>
+      <prop name="CenterRight">113</prop>
+      <prop name="CenterTop">245</prop>
+      <prop name="CenterBottom">242</prop>
+    </model>
+  </object>
+  <object name="Skin_Panel_Background" class="SkinnedRectTableElement" guid="1590d735-6e8a-4e99-b0f3-65e3229f2838">
+    <model>
+      <prop name="SkinId">70</prop>
+      <prop name="ImageId">SkinDesignStandard</prop>
+      <prop name="Left">0</prop>
+      <prop name="Right">8</prop>
+      <prop name="Top">256</prop>
+      <prop name="Bottom">0</prop>
+      <prop name="CenterLeft">4</prop>
+      <prop name="CenterRight">5</prop>
+      <prop name="CenterTop">252</prop>
+      <prop name="CenterBottom">3</prop>
+    </model>
+  </object>
+  <object name="Skin_Panel_Frame" class="SkinnedRectTableElement" guid="72946a3d-41c5-4f4d-b452-eb491959fd9b">
+    <model>
+      <prop name="SkinId">71</prop>
+      <prop name="ImageId">SkinDesignStandard</prop>
+      <prop name="Left">129</prop>
+      <prop name="Right">138</prop>
+      <prop name="Top">209</prop>
+      <prop name="Bottom">200</prop>
+      <prop name="CenterLeft">133</prop>
+      <prop name="CenterRight">134</prop>
+      <prop name="CenterTop">205</prop>
+      <prop name="CenterBottom">204</prop>
+    </model>
+  </object>
+  <object name="Skin_Panel_Frame_Enabled" class="SkinnedRectTableElement" guid="f079655d-f659-4654-867b-0f5151d921cd">
+    <model>
+      <prop name="SkinId">72</prop>
+      <prop name="ImageId">SkinDesignStandard</prop>
+      <prop name="Left">23</prop>
+      <prop name="Right">30</prop>
+      <prop name="Top">76</prop>
+      <prop name="Bottom">0</prop>
+      <prop name="CenterLeft">26</prop>
+      <prop name="CenterRight">27</prop>
+      <prop name="CenterTop">72</prop>
+      <prop name="CenterBottom">3</prop>
+    </model>
+  </object>
+  <object name="Skin_Panel_Frame_Disabled" class="SkinnedRectTableElement" guid="b8ff0f7d-305a-40a8-a059-8e9d9587f260">
+    <model>
+      <prop name="SkinId">73</prop>
+      <prop name="ImageId">SkinDesignStandard</prop>
+      <prop name="Left">32</prop>
+      <prop name="Right">39</prop>
+      <prop name="Top">76</prop>
+      <prop name="Bottom">0</prop>
+      <prop name="CenterLeft">35</prop>
+      <prop name="CenterRight">36</prop>
+      <prop name="CenterTop">72</prop>
+      <prop name="CenterBottom">3</prop>
+    </model>
+  </object>
+  <object name="Skin_CheckButton_Enabled" class="SkinnedRectTableElement" guid="f424c956-9215-4cda-a4a0-ee2808a4410c">
+    <model>
+      <prop name="SkinId">80</prop>
+      <prop name="ImageId">SkinDesignStandard</prop>
+      <prop name="Left">236</prop>
+      <prop name="Right">245</prop>
+      <prop name="Top">39</prop>
+      <prop name="Bottom">0</prop>
+      <prop name="CenterLeft">241</prop>
+      <prop name="CenterRight">242</prop>
+      <prop name="CenterTop">34</prop>
+      <prop name="CenterBottom">3</prop>
+    </model>
+  </object>
+  <object name="Skin_CheckButton_Disabled" class="SkinnedRectTableElement" guid="d8de3ac7-5ba7-437d-9bb2-5f1024fd1dcc">
+    <model>
+      <prop name="SkinId">81</prop>
+      <prop name="ImageId">SkinDesignStandard</prop>
+      <prop name="Left">246</prop>
+      <prop name="Right">255</prop>
+      <prop name="Top">39</prop>
+      <prop name="Bottom">0</prop>
+      <prop name="CenterLeft">251</prop>
+      <prop name="CenterRight">252</prop>
+      <prop name="CenterTop">34</prop>
+      <prop name="CenterBottom">3</prop>
+    </model>
+  </object>
+  <object name="Skin_CheckButton_Focus" class="SkinnedRectTableElement" guid="ce83dbf6-9b11-45e7-a31f-32e78e0c142c">
+    <model>
+      <prop name="SkinId">82</prop>
+      <prop name="ImageId">SkinDesignStandard</prop>
+      <prop name="Left">220</prop>
+      <prop name="Right">234</prop>
+      <prop name="Top">39</prop>
+      <prop name="Bottom">0</prop>
+      <prop name="CenterLeft">227</prop>
+      <prop name="CenterRight">227</prop>
+      <prop name="CenterTop">33</prop>
+      <prop name="CenterBottom">6</prop>
+    </model>
+  </object>
+  <object name="Skin_CheckButton_Highlight" class="SkinnedRectTableElement" guid="ed1411f4-e624-4c68-97fb-a00c920962a4">
+    <model>
+      <prop name="SkinId">83</prop>
+      <prop name="ImageId">SkinDesignStandard</prop>
+      <prop name="Left">206</prop>
+      <prop name="Right">218</prop>
+      <prop name="Top">39</prop>
+      <prop name="Bottom">0</prop>
+      <prop name="CenterLeft">213</prop>
+      <prop name="CenterRight">214</prop>
+      <prop name="CenterTop">34</prop>
+      <prop name="CenterBottom">3</prop>
+    </model>
+  </object>
+  <object name="Skin_CheckButton_Pressed" class="SkinnedRectTableElement" guid="4b3a72ec-0787-4ea5-bb5b-958450150130">
+    <model>
+      <prop name="SkinId">88</prop>
+      <prop name="ImageId">SkinDesignStandard</prop>
+      <prop name="Left">193</prop>
+      <prop name="Right">205</prop>
+      <prop name="Top">39</prop>
+      <prop name="Bottom">0</prop>
+      <prop name="CenterLeft">200</prop>
+      <prop name="CenterRight">201</prop>
+      <prop name="CenterTop">34</prop>
+      <prop name="CenterBottom">3</prop>
+    </model>
+  </object>
+  <object name="Skin_EditBox_Enabled" class="SkinnedRectTableElement" guid="6e69e6e9-e8d5-4900-b706-51caa4108118">
+    <model>
+      <prop name="SkinId">89</prop>
+      <prop name="ImageId">SkinDesignStandard</prop>
+      <prop name="Left">182</prop>
+      <prop name="Right">194</prop>
+      <prop name="Top">194</prop>
+      <prop name="Bottom">164</prop>
+      <prop name="CenterLeft">187</prop>
+      <prop name="CenterRight">189</prop>
+      <prop name="CenterTop">189</prop>
+      <prop name="CenterBottom">167</prop>
+    </model>
+  </object>
+  <object name="Skin_EditBox_Disabled" class="SkinnedRectTableElement" guid="5c3c7d64-52a9-4e16-83e4-576f71b3fc2f">
+    <model>
+      <prop name="SkinId">90</prop>
+      <prop name="ImageId">SkinDesignStandard</prop>
+      <prop name="Left">182</prop>
+      <prop name="Right">194</prop>
+      <prop name="Top">132</prop>
+      <prop name="Bottom">102</prop>
+      <prop name="CenterLeft">187</prop>
+      <prop name="CenterRight">189</prop>
+      <prop name="CenterTop">127</prop>
+      <prop name="CenterBottom">106</prop>
+    </model>
+  </object>
+  <object name="Skin_EditBox_Editing" class="SkinnedRectTableElement" guid="901cb704-3b2e-47ba-8200-9e1ebc50a5e8">
+    <model>
+      <prop name="SkinId">91</prop>
+      <prop name="ImageId">SkinDesignStandard</prop>
+      <prop name="Left">182</prop>
+      <prop name="Right">194</prop>
+      <prop name="Top">101</prop>
+      <prop name="Bottom">71</prop>
+      <prop name="CenterLeft">187</prop>
+      <prop name="CenterRight">189</prop>
+      <prop name="CenterTop">96</prop>
+      <prop name="CenterBottom">75</prop>
+    </model>
+  </object>
+  <object name="Skin_EditBox_Focus_Selection" class="SkinnedRectTableElement" guid="b9311d1b-a336-4186-96c8-d0bf775e5ed8">
+    <model>
+      <prop name="SkinId">92</prop>
+      <prop name="ImageId">SkinDesignStandard</prop>
+      <prop name="Left">219</prop>
+      <prop name="Right">221</prop>
+      <prop name="Top">39</prop>
+      <prop name="Bottom">37</prop>
+      <prop name="CenterLeft">220</prop>
+      <prop name="CenterRight">220</prop>
+      <prop name="CenterTop">38</prop>
+      <prop name="CenterBottom">38</prop>
+    </model>
+  </object>
+  <object name="Skin_EditBox_Editing_Selection" class="SkinnedRectTableElement" guid="20e13f84-8a16-4737-8db3-affdfd660700">
+    <model>
+      <prop name="SkinId">93</prop>
+      <prop name="ImageId">SkinDesignStandard</prop>
+      <prop name="Left">226</prop>
+      <prop name="Right">228</prop>
+      <prop name="Top">29</prop>
+      <prop name="Bottom">27</prop>
+      <prop name="CenterLeft">227</prop>
+      <prop name="CenterRight">227</prop>
+      <prop name="CenterTop">28</prop>
+      <prop name="CenterBottom">28</prop>
+    </model>
+  </object>
+  <object name="Skin_EditBox_EnabledHighlight" class="SkinnedRectTableElement" guid="5b255d83-d5e6-4141-9da8-39a176eab935">
+    <model>
+      <prop name="SkinId">94</prop>
+      <prop name="ImageId">SkinDesignStandard</prop>
+      <prop name="Left">206</prop>
+      <prop name="Right">218</prop>
+      <prop name="Top">39</prop>
+      <prop name="Bottom">0</prop>
+      <prop name="CenterLeft">212</prop>
+      <prop name="CenterRight">214</prop>
+      <prop name="CenterTop">34</prop>
+      <prop name="CenterBottom">4</prop>
+    </model>
+  </object>
+  <object name="Skin_EditBox_Focus_Frame" class="SkinnedRectTableElement" guid="54de6f47-0a0f-492f-815a-e01e529c2dae">
+    <model>
+      <prop name="SkinId">95</prop>
+      <prop name="ImageId">SkinDesignStandard</prop>
+      <prop name="Left">108</prop>
+      <prop name="Right">115</prop>
+      <prop name="Top">256</prop>
+      <prop name="Bottom">249</prop>
+      <prop name="CenterLeft">110</prop>
+      <prop name="CenterRight">113</prop>
+      <prop name="CenterTop">254</prop>
+      <prop name="CenterBottom">251</prop>
+    </model>
+  </object>
+  <object name="Skin_EditBox_Editing_Frame" class="SkinnedRectTableElement" guid="0f948326-b55a-46fb-ad33-9dbcd8b196ce">
+    <model>
+      <prop name="SkinId">96</prop>
+      <prop name="ImageId">SkinDesignStandard</prop>
+      <prop name="Left">108</prop>
+      <prop name="Right">115</prop>
+      <prop name="Top">202</prop>
+      <prop name="Bottom">195</prop>
+      <prop name="CenterLeft">110</prop>
+      <prop name="CenterRight">113</prop>
+      <prop name="CenterTop">200</prop>
+      <prop name="CenterBottom">197</prop>
+    </model>
+  </object>
+  <object name="Skin_EditBox_Enabled_Popup" class="SkinnedRectTableElement" guid="764b7d05-2c45-4bda-a8e7-35ea1cd1c2bd">
+    <model>
+      <prop name="SkinId">97</prop>
+      <prop name="ImageId">SkinDesignStandard</prop>
+      <prop name="Left">186</prop>
+      <prop name="Right">191</prop>
+      <prop name="Top">191</prop>
+      <prop name="Bottom">167</prop>
+      <prop name="CenterLeft">187</prop>
+      <prop name="CenterRight">189</prop>
+      <prop name="CenterTop">189</prop>
+      <prop name="CenterBottom">168</prop>
+    </model>
+  </object>
+  <object name="Skin_EditBox_Editing_Popup" class="SkinnedRectTableElement" guid="6b1f256b-1a70-466b-b897-65397019d0dc">
+    <model>
+      <prop name="SkinId">98</prop>
+      <prop name="ImageId">SkinDesignStandard</prop>
+      <prop name="Left">186</prop>
+      <prop name="Right">191</prop>
+      <prop name="Top">98</prop>
+      <prop name="Bottom">74</prop>
+      <prop name="CenterLeft">187</prop>
+      <prop name="CenterRight">189</prop>
+      <prop name="CenterTop">96</prop>
+      <prop name="CenterBottom">75</prop>
+    </model>
+  </object>
+  <object name="Skin_EditBoxField_Focus" class="SkinnedRectTableElement" guid="79664467-a3e5-4b1e-a7ba-69a71de191a3">
+    <model>
+      <prop name="SkinId">99</prop>
+      <prop name="ImageId">SkinDesignStandard</prop>
+      <prop name="Left">109</prop>
+      <prop name="Right">114</prop>
+      <prop name="Top">228</prop>
+      <prop name="Bottom">223</prop>
+      <prop name="CenterLeft">110</prop>
+      <prop name="CenterRight">113</prop>
+      <prop name="CenterTop">227</prop>
+      <prop name="CenterBottom">224</prop>
+    </model>
+  </object>
+  <object name="Skin_EditBoxField_Edit" class="SkinnedRectTableElement" guid="ebe1fd5f-5329-4bb6-9b8c-d1f4f954f9db">
+    <model>
+      <prop name="SkinId">100</prop>
+      <prop name="ImageId">SkinDesignStandard</prop>
+      <prop name="Left">109</prop>
+      <prop name="Right">114</prop>
+      <prop name="Top">193</prop>
+      <prop name="Bottom">188</prop>
+      <prop name="CenterLeft">110</prop>
+      <prop name="CenterRight">113</prop>
+      <prop name="CenterTop">192</prop>
+      <prop name="CenterBottom">189</prop>
+    </model>
+  </object>
+  <object name="Skin_EditBoxField_FocusCurr" class="SkinnedRectTableElement" guid="c78a85f7-8acd-44bd-8e21-de8698c568d7">
+    <model>
+      <prop name="SkinId">101</prop>
+      <prop name="ImageId">SkinDesignStandard</prop>
+      <prop name="Left">109</prop>
+      <prop name="Right">114</prop>
+      <prop name="Top">255</prop>
+      <prop name="Bottom">250</prop>
+      <prop name="CenterLeft">110</prop>
+      <prop name="CenterRight">113</prop>
+      <prop name="CenterTop">254</prop>
+      <prop name="CenterBottom">251</prop>
+    </model>
+  </object>
+  <object name="Skin_EditBoxField_EditCurr" class="SkinnedRectTableElement" guid="bdb9f784-eb8a-4999-9fdd-e061253d1112">
+    <model>
+      <prop name="SkinId">102</prop>
+      <prop name="ImageId">SkinDesignStandard</prop>
+      <prop name="Left">109</prop>
+      <prop name="Right">114</prop>
+      <prop name="Top">201</prop>
+      <prop name="Bottom">196</prop>
+      <prop name="CenterLeft">110</prop>
+      <prop name="CenterRight">113</prop>
+      <prop name="CenterTop">200</prop>
+      <prop name="CenterBottom">197</prop>
+    </model>
+  </object>
+  <object name="Skin_EditBoxNumeric_LabelRect" class="SkinnedRectTableElement" guid="1a184e61-aa6f-41b6-8f6d-8a615903543b">
+    <model>
+      <prop name="SkinId">103</prop>
+      <prop name="ImageId">SkinDesignStandard</prop>
+      <prop name="Left">184</prop>
+      <prop name="Right">193</prop>
+      <prop name="Top">190</prop>
+      <prop name="Bottom">166</prop>
+      <prop name="CenterLeft">185</prop>
+      <prop name="CenterRight">192</prop>
+      <prop name="CenterTop">188</prop>
+      <prop name="CenterBottom">167</prop>
+    </model>
+  </object>
+  <object name="Skin_EditBoxNumeric_LabelRect_Gray" class="SkinnedRectTableElement" guid="b8581ff2-4f64-4a5a-afec-86625ce64ba5">
+    <model>
+      <prop name="SkinId">104</prop>
+      <prop name="ImageId">SkinDesignStandard</prop>
+      <prop name="Left">184</prop>
+      <prop name="Right">193</prop>
+      <prop name="Top">128</prop>
+      <prop name="Bottom">104</prop>
+      <prop name="CenterLeft">185</prop>
+      <prop name="CenterRight">192</prop>
+      <prop name="CenterTop">126</prop>
+      <prop name="CenterBottom">105</prop>
+    </model>
+  </object>
+  <object name="Skin_ScrollPanel_Corner" class="SkinnedRectTableElement" guid="b35d1814-8afb-4f26-8706-32cf11d8ba44">
+    <model>
+      <prop name="SkinId">110</prop>
+      <prop name="ImageId">SkinDesignStandard</prop>
+      <prop name="Left">125</prop>
+      <prop name="Right">128</prop>
+      <prop name="Top">199</prop>
+      <prop name="Bottom">196</prop>
+      <prop name="CenterLeft">126</prop>
+      <prop name="CenterRight">127</prop>
+      <prop name="CenterTop">198</prop>
+      <prop name="CenterBottom">197</prop>
+    </model>
+  </object>
+  <object name="Skin_Menu_Background" class="SkinnedRectTableElement" guid="6299f23e-231b-4855-8b88-27353d359c70">
+    <model>
+      <prop name="SkinId">115</prop>
+      <prop name="ImageId">SkinDesignStandard</prop>
+      <prop name="Left">182</prop>
+      <prop name="Right">192</prop>
+      <prop name="Top">27</prop>
+      <prop name="Bottom">0</prop>
+      <prop name="CenterLeft">187</prop>
+      <prop name="CenterRight">187</prop>
+      <prop name="CenterTop">22</prop>
+      <prop name="CenterBottom">5</prop>
+    </model>
+  </object>
+  <object name="Skin_MenuElem_Hilighted" class="SkinnedRectTableElement" guid="ba1b559e-efdd-4f15-afed-5b34449c1a20">
+    <model>
+      <prop name="SkinId">116</prop>
+      <prop name="ImageId">SkinDesignStandard</prop>
+      <prop name="Left">182</prop>
+      <prop name="Right">192</prop>
+      <prop name="Top">40</prop>
+      <prop name="Bottom">28</prop>
+      <prop name="CenterLeft">187</prop>
+      <prop name="CenterRight">187</prop>
+      <prop name="CenterTop">34</prop>
+      <prop name="CenterBottom">34</prop>
+    </model>
+  </object>
+  <object name="Skin_SubMenuElem_Hilighted" class="SkinnedRectTableElement" guid="b2f8c7fe-8e15-4d51-b344-2ca2b3278b54">
+    <model>
+      <prop name="SkinId">117</prop>
+      <prop name="ImageId">SkinDesignStandard</prop>
+      <prop name="Left">157</prop>
+      <prop name="Right">181</prop>
+      <prop name="Top">70</prop>
+      <prop name="Bottom">46</prop>
+      <prop name="CenterLeft">162</prop>
+      <prop name="CenterRight">162</prop>
+      <prop name="CenterTop">66</prop>
+      <prop name="CenterBottom">49</prop>
+    </model>
+  </object>
+  <object name="Skin_SubMenuElem_Enabled" class="SkinnedRectTableElement" guid="9ba12402-b8ad-4571-b6a0-751bdb532f79">
+    <model>
+      <prop name="SkinId">118</prop>
+      <prop name="ImageId">SkinDesignStandard</prop>
+      <prop name="Left">157</prop>
+      <prop name="Right">181</prop>
+      <prop name="Top">45</prop>
+      <prop name="Bottom">21</prop>
+      <prop name="CenterLeft">163</prop>
+      <prop name="CenterRight">163</prop>
+      <prop name="CenterTop">23</prop>
+      <prop name="CenterBottom">23</prop>
+    </model>
+  </object>
+  <object name="Skin_SubMenuElem_Disabled" class="SkinnedRectTableElement" guid="03a5cf68-6a33-47e8-aa6a-f1e34353fb4a">
+    <model>
+      <prop name="SkinId">119</prop>
+      <prop name="ImageId">SkinDesignStandard</prop>
+      <prop name="Left">157</prop>
+      <prop name="Right">181</prop>
+      <prop name="Top">24</prop>
+      <prop name="Bottom">0</prop>
+      <prop name="CenterLeft">163</prop>
+      <prop name="CenterRight">163</prop>
+      <prop name="CenterTop">2</prop>
+      <prop name="CenterBottom">2</prop>
+    </model>
+  </object>
+  <object name="Skin_MenuElemSeparator" class="SkinnedRectTableElement" guid="bbec886a-2802-4887-8660-9688bc15f6af">
+    <model>
+      <prop name="SkinId">120</prop>
+      <prop name="ImageId">SkinDesignStandard</prop>
+      <prop name="Left">167</prop>
+      <prop name="Right">181</prop>
+      <prop name="Top">81</prop>
+      <prop name="Bottom">73</prop>
+      <prop name="CenterLeft">174</prop>
+      <prop name="CenterRight">174</prop>
+      <prop name="CenterTop">73</prop>
+      <prop name="CenterBottom">73</prop>
+    </model>
+  </object>
+</table>

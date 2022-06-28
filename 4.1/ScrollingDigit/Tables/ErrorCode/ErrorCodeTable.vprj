@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+=============================================================================
+ $URL: http://svn/svn/VAPSXT178/branches/XT/4.1/VAPSXT_DIR/Projects/StandardRootProjects/Tables/ErrorCode/ErrorCodeTable.vprj $
+
+ Code Category: Certifiable
+
+ Version: $Revision: 44819 $
+
+ Last Revision $Author: mdosogne $
+
+ Last Revision $Date: 2015-02-04 17:16:55 -0500 (Wed, 04 Feb 2015) $
+
+ IMPORTANT NOTICE: This software program (&quot;Software&quot;) including the source
+ code is a confidential and/or proprietary product of Presagis Canada Inc.
+ and/or its subsidiaries and affiliated companies. (&quot;Presagis&quot;) and is
+ protected by copyright laws. The use of the Software is subject to the terms
+ of the Presagis Software License Agreement.
+
+ (c) Copyright 2014, All Rights Reserved.
+
+ AVIS IMPORTANT: Ce logiciel incluant le code source est de l&apos;information
+ confidentielle et/ou propriete de Presagis Canada Inc. et/ou ses filiales et
+ compagnies affiliees (&quot;Presagis&quot;) et est protege par les lois sur le droit
+ d&apos;auteur. L&apos;utilisation de ce logiciel est sujet aux termes d&apos;une licence de
+ Presagis.
+
+ (c) Copyright 2014, Tous droits réservés.
+
+=============================================================================
+-->
+
+<!DOCTYPE project PUBLIC "-//PresagisCanada//DTD VapsXT 18.0" "file:///C:/VAPSXTDTD/VapsXT_18.dtd">
+
+<project name="ErrorCodeTable.vprj">
+  <file name="ErrorCodeTable.vtbl" path=".\"/>
+</project>

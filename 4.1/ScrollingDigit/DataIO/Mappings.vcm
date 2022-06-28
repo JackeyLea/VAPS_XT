@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<connection_mappings>
+  <process name="*">
+    <connection_mapping always_send="no" connection="Default" io_buffer="*" rate="10"/>
+  </process>
+  <process name="nComRepeatGroupSim">
+    <connection_mapping always_send="yes" connection="Default" io_buffer="*" rate="1"/>
+  </process>
+  <process name="nComSimFLSIM">
+    <connection_mapping always_send="yes" connection="Default" io_buffer="*" rate="5"/>
+  </process>
+  <process name="nComSimStage">
+    <connection_mapping always_send="yes" connection="Default" io_buffer="*" rate="5"/>
+  </process>
+  <process name="nComFLSIMIntegrationExample">
+    <connection_mapping always_send="no" connection="Default" io_buffer="*" rate="5"/>
+  </process>
+  <process name="nComSMIntegrationExample">
+    <connection_mapping always_send="no" connection="Default" io_buffer="*" rate="5"/>
+  </process>
+  <process name="nComChineseCharReceiver">
+    <connection_mapping always_send="yes" connection="Default" io_buffer="*" rate="5"/>
+  </process>
+  <process name="nComChineseCharSender">
+    <connection_mapping always_send="yes" connection="Default" io_buffer="*" rate="5"/>
+  </process>
+</connection_mappings>

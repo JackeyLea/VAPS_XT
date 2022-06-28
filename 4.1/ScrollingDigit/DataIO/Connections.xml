@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<connections>
+  <global>
+    <property name="VAPSXTAppName" value="VAPSXT"/>
+  </global>
+  <connection>
+    <property name="name" value="Default"/>
+    <property name="enable" value="true"/>
+    <property name="TraceLevel" value="0"/>
+    <property name="transport" value="UDP"/>
+    <property name="Mode" value="Broadcast"/>
+    <property name="ReceiveBufferSize" value="60000"/>
+    <property name="Port" value="7777"/>
+  </connection>
+  <connection>
+    <property name="name" value="PointToPointTCP"/>
+    <property name="enable" value="true"/>
+    <property name="TraceLevel" value="0"/>
+    <property name="transport" value="TCP"/>
+    <property name="Address" value="127.0.0.1"/>
+    <property name="ServerApp" value="AFormatName"/>
+    <property name="Port" value="5000"/>
+  </connection>
+</connections>

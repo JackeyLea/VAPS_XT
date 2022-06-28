@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+=============================================================================
+ $URL: http://svn/svn/VAPSXT178/branches/XT/4.1/VAPSXT_DIR/Projects/StandardRootProjects/Tables/Attributes/DefColors.vctb $
+
+ Code Category: Certifiable
+
+ Version: $Revision: 44819 $
+
+ Last Revision $Author: mdosogne $
+
+ Last Revision $Date: 2015-02-04 17:16:55 -0500 (Wed, 04 Feb 2015) $
+
+ IMPORTANT NOTICE: This software program (&quot;Software&quot;) including the source
+ code is a confidential and/or proprietary product of Presagis Canada Inc.
+ and/or its subsidiaries and affiliated companies. (&quot;Presagis&quot;) and is
+ protected by copyright laws. The use of the Software is subject to the terms
+ of the Presagis Software License Agreement.
+
+ (c) Copyright 2014, All Rights Reserved.
+
+ AVIS IMPORTANT: Ce logiciel incluant le code source est de l&apos;information
+ confidentielle et/ou propriete de Presagis Canada Inc. et/ou ses filiales et
+ compagnies affiliees (&quot;Presagis&quot;) et est protege par les lois sur le droit
+ d&apos;auteur. L&apos;utilisation de ce logiciel est sujet aux termes d&apos;une licence de
+ Presagis.
+
+ (c) Copyright 2014, Tous droits réservés.
+
+=============================================================================
+-->
+
+<!DOCTYPE color_table PUBLIC "-//PresagisCanada//DTD VapsXT 18.0" "file:///C:/VAPSXTDTD/VapsXT_18.dtd">
+
+<color_table name="DefColors" max_num_colors="1024">
+  <named_indexed_color_rgb index="0" name="stdWhite" r="255" g="255" b="255"/>
+  <named_indexed_color_rgb index="1" name="stdBlack" r="0" g="0" b="0"/>
+  <named_indexed_color_rgb index="2" name="stdRed" r="255" g="0" b="0"/>
+  <named_indexed_color_rgb index="3" name="stdYellow" r="255" g="255" b="0"/>
+  <named_indexed_color_rgb index="4" name="stdLime" r="0" g="255" b="0"/>
+  <named_indexed_color_rgb index="5" name="stdCyan" r="0" g="255" b="255"/>
+  <named_indexed_color_rgb index="6" name="stdBlue" r="0" g="0" b="255"/>
+  <named_indexed_color_rgb index="7" name="stdMagenta" r="255" g="0" b="255"/>
+  <named_indexed_color_rgb index="8" name="stdMaroon" r="127" g="0" b="0"/>
+  <named_indexed_color_rgb index="9" name="stdOlive" r="127" g="127" b="0"/>
+  <named_indexed_color_rgb index="10" name="stdGreen" r="0" g="127" b="0"/>
+  <named_indexed_color_rgb index="11" name="stdTeal" r="0" g="127" b="127"/>
+  <named_indexed_color_rgb index="12" name="stdNavy" r="0" g="0" b="127"/>
+  <named_indexed_color_rgb index="13" name="stdPurple" r="127" g="0" b="127"/>
+  <named_indexed_color_rgb index="14" name="vxtOrange" r="255" g="127" b="0"/>
+  <named_indexed_color_rgb index="15" name="vxtAmber" r="255" g="204" b="0"/>
+  <named_indexed_color_rgb index="16" name="vxtGray95" r="242" g="242" b="242"/>
+  <named_indexed_color_rgb index="17" name="vxtGray90" r="229" g="229" b="229"/>
+  <named_indexed_color_rgb index="18" name="vxtGray85" r="216" g="216" b="216"/>
+  <named_indexed_color_rgb index="19" name="vxtGray80" r="204" g="204" b="204"/>
+  <named_indexed_color_rgb index="20" name="vxtGray75" r="191" g="191" b="191"/>
+  <named_indexed_color_rgb index="21" name="vxtGray70" r="178" g="178" b="178"/>
+  <named_indexed_color_rgb index="22" name="vxtGray65" r="165" g="165" b="165"/>
+  <named_indexed_color_rgb index="23" name="vxtGray60" r="153" g="153" b="153"/>
+  <named_indexed_color_rgb index="24" name="vxtGray55" r="140" g="140" b="140"/>
+  <named_indexed_color_rgb index="25" name="vxtGray50" r="127" g="127" b="127"/>
+  <named_indexed_color_rgb index="26" name="vxtGray45" r="114" g="114" b="114"/>
+  <named_indexed_color_rgb index="27" name="vxtGray40" r="102" g="102" b="102"/>
+  <named_indexed_color_rgb index="28" name="vxtGray35" r="89" g="89" b="89"/>
+  <named_indexed_color_rgb index="29" name="vxtGray30" r="76" g="76" b="76"/>
+  <named_indexed_color_rgb index="30" name="vxtGray25" r="63" g="63" b="63"/>
+  <named_indexed_color_rgb index="31" name="vxtGray20" r="51" g="51" b="51"/>
+  <named_indexed_color_rgb index="32" name="vxtGray15" r="38" g="38" b="38"/>
+  <named_indexed_color_rgb index="33" name="vxtGray10" r="25" g="25" b="25"/>
+  <named_indexed_color_rgb index="34" name="vxtGray05" r="12" g="12" b="12"/>
+  <named_indexed_color_rgb index="35" name="vxtWarmGray80" r="209" g="204" b="198"/>
+  <named_indexed_color_rgb index="36" name="vxtWarmGray70" r="186" g="178" b="170"/>
+  <named_indexed_color_rgb index="37" name="vxtWarmGray60" r="163" g="152" b="142"/>
+  <named_indexed_color_rgb index="38" name="vxtWarmGray50" r="140" g="126" b="114"/>
+  <named_indexed_color_rgb index="39" name="vxtWarmGray40" r="112" g="101" b="91"/>
+  <named_indexed_color_rgb index="40" name="vxtWarmGray30" r="84" g="76" b="68"/>
+  <named_indexed_color_rgb index="41" name="vxtWarmGray20" r="56" g="50" b="45"/>
+  <named_indexed_color_rgb index="42" name="vxtCoolGray50" r="121" g="126" b="133"/>
+  <named_indexed_color_rgb index="43" name="vxtBrown1" r="102" g="63" b="27"/>
+  <named_indexed_color_rgb index="44" name="vxtBrown2" r="124" g="99" b="22"/>
+  <named_indexed_color_rgb index="45" name="vxtBrown3" r="151" g="117" b="45"/>
+  <named_indexed_color_rgb index="46" name="vxtBrown4" r="173" g="155" b="12"/>
+  <named_indexed_color_rgb index="47" name="vxtBrown5" r="158" g="153" b="40"/>
+  <named_indexed_color_rgb index="48" name="vxtBrown6" r="153" g="148" b="62"/>
+  <named_indexed_color_rgb index="49" name="vxtOliveGreen" r="97" g="138" b="35"/>
+  <named_indexed_color_rgb index="50" name="vxtSeaGreen" r="43" g="128" b="86"/>
+  <named_indexed_color_rgb index="51" name="vxtTeal20" r="0" g="102" b="102"/>
+  <named_indexed_color_rgb index="52" name="vxtTeal15" r="0" g="76" b="76"/>
+  <named_indexed_color_rgb index="53" name="vxtSkyBlue" r="168" g="196" b="239"/>
+  <named_indexed_color_rgb index="54" name="R204G114B38A255" r="204" g="114" b="38"/>
+  <named_indexed_color_rgb index="55" name="R232G127B58A255" r="232" g="127" b="58"/>
+  <named_indexed_color_rgb index="56" name="R234G140B77A255" r="234" g="140" b="77"/>
+  <named_indexed_color_rgb index="57" name="R236G153B97A255" r="236" g="153" b="97"/>
+  <named_indexed_color_rgb index="58" name="R238G165B117A255" r="238" g="165" b="117"/>
+  <named_indexed_color_rgb index="59" name="R241G178B136A255" r="241" g="178" b="136"/>
+  <named_indexed_color_rgb index="60" name="R243G191B156A255" r="243" g="191" b="156"/>
+  <named_indexed_color_rgb index="61" name="R245G204B176A255" r="245" g="204" b="176"/>
+  <named_indexed_color_rgb index="62" name="R248G216B196A255" r="248" g="216" b="196"/>
+  <named_indexed_color_rgb index="63" name="R250G229B215A255" r="250" g="229" b="215"/>
+  <named_indexed_color_rgb index="64" name="R252G242B235A255" r="252" g="242" b="235"/>
+  <named_indexed_color_rgb index="65" name="R229G102B140A255" r="229" g="102" b="140"/>
+  <named_indexed_color_rgb index="66" name="R178G50B89A255" r="178" g="50" b="89"/>
+  <named_indexed_color_rgb index="67" name="R165G38B76A255" r="165" g="38" b="76"/>
+  <named_indexed_color_rgb index="68" name="R255G114B127A255" r="255" g="114" b="127"/>
+  <named_indexed_color_rgb index="69" name="R255G255B204A255" r="255" g="255" b="204"/>
+  <named_indexed_color_rgb index="70" name="R204G63B76A255" r="204" g="63" b="76"/>
+  <named_indexed_color_rgb index="71" name="R165G25B38A255" r="165" g="25" b="38"/>
+  <named_indexed_color_rgb index="72" name="R229G229B178A255" r="229" g="229" b="178"/>
+  <named_indexed_color_rgb index="73" name="R234G142B81A255" r="234" g="142" b="81"/>
+  <named_indexed_color_rgb index="74" name="R239G170B124A255" r="239" g="170" b="124"/>
+  <named_indexed_color_rgb index="75" name="R244G198B168A255" r="244" g="198" b="168"/>
+  <named_indexed_color_rgb index="76" name="R249G226B211A255" r="249" g="226" b="211"/>
+  <named_indexed_color_rgb index="77" name="R153G204B50A255" r="153" g="204" b="50"/>
+  <named_indexed_color_rgb index="78" name="R101G153B0A255" r="101" g="153" b="0"/>
+  <named_indexed_color_rgb index="79" name="R235G149B92A255" r="235" g="149" b="92"/>
+  <named_indexed_color_rgb index="80" name="R242G184B146A255" r="242" g="184" b="146"/>
+  <named_indexed_color_rgb index="81" name="R248G220B200A255" r="248" g="220" b="200"/>
+  <named_indexed_color_rgb index="82" name="R50G50B50A255" r="50" g="50" b="50"/>
+  <named_indexed_color_rgb index="83" name="R153G38B0A255" r="153" g="38" b="0"/>
+  <named_indexed_color_rgb index="84" name="R76G0B0A255" r="76" g="0" b="0"/>
+  <named_indexed_color_rgb index="85" name="R229G153B153A255" r="229" g="153" b="153"/>
+  <named_indexed_color_rgb index="86" name="R178G101B101A255" r="178" g="101" b="101"/>
+</color_table>

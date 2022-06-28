@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE table PUBLIC "-//PresagisCanada//DTD VapsXT 18.0" "file:///C:/VAPSXTDTD/VapsXT_18.dtd">
+
+<table name="LocalizedTextTable" type="LocalizedTextTable">
+  <model>
+    <prop name="DefaultValue">Default</prop>
+  </model>
+  <object name="Default" class="LocalizedTextTableElement" guid="25156293-8b01-4fb6-9ea3-cb98130ed3e8">
+    <model>
+      <prop name="StringId">0</prop>
+      <arrayprop name="Element" capacity="3" size="3">
+        <structentry>
+          <field name="Language">en</field>
+          <field name="Value">English</field>
+        </structentry>
+        <structentry>
+          <field name="Language">fr</field>
+          <field name="Value">Français</field>
+        </structentry>
+        <structentry>
+          <field name="Language">ch</field>
+          <field name="Value">中文</field>
+        </structentry>
+      </arrayprop>
+    </model>
+  </object>
+</table>

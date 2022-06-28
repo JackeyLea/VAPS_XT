@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE class_decl PUBLIC "-//PresagisCanada//DTD VapsXT 18.0" "file:///C:/VAPSXTDTD/VapsXT_18.dtd">
+
+<class_decl name="sndFloat50" guid="f1394708-7479-48eb-810b-b31d7e19a416" base_class="DataSender" cpp_class="vxtClsFloat50Sender">
+  <properties>
+    <structprop_decl name="Value" access="Input" type="Float50">
+      <arrayfield name="array">
+        <entry>0</entry>
+        <entry>0</entry>
+        <entry>0</entry>
+        <entry>0</entry>
+        <entry>0</entry>
+        <entry>0</entry>
+        <entry>0</entry>
+        <entry>0</entry>
+        <entry>0</entry>
+        <entry>0</entry>
+        <entry>0</entry>
+        <entry>0</entry>
+        <entry>0</entry>
+        <entry>0</entry>
+        <entry>0</entry>
+        <entry>0</entry>
+        <entry>0</entry>
+        <entry>0</entry>
+        <entry>0</entry>
+        <entry>0</entry>
+        <entry>0</entry>
+        <entry>0</entry>
+        <entry>0</entry>
+        <entry>0</entry>
+        <entry>0</entry>
+        <entry>0</entry>
+        <entry>0</entry>
+        <entry>0</entry>
+        <entry>0</entry>
+        <entry>0</entry>
+        <entry>0</entry>
+        <entry>0</entry>
+        <entry>0</entry>
+        <entry>0</entry>
+        <entry>0</entry>
+        <entry>0</entry>
+        <entry>0</entry>
+        <entry>0</entry>
+        <entry>0</entry>
+        <entry>0</entry>
+        <entry>0</entry>
+        <entry>0</entry>
+        <entry>0</entry>
+        <entry>0</entry>
+        <entry>0</entry>
+        <entry>0</entry>
+        <entry>0</entry>
+        <entry>0</entry>
+        <entry>0</entry>
+        <entry>0</entry>
+      </arrayfield>
+    </structprop_decl>
+  </properties>
+  <events/>
+  <operations>
+    <soperation_decl name="doSend" type="Void"/>
+  </operations>
+</class_decl>

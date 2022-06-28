@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+=============================================================================
+ $URL: http://svn/svn/VAPSXT178/branches/XT/4.1/VAPSXT_DIR/Projects/StandardRootProjects/Tables/Attributes/DefGradients.vgtb $
+
+ Code Category: Certifiable
+
+ Version: $Revision: 44819 $
+
+ Last Revision $Author: mdosogne $
+
+ Last Revision $Date: 2015-02-04 17:16:55 -0500 (Wed, 04 Feb 2015) $
+
+ IMPORTANT NOTICE: This software program (&quot;Software&quot;) including the source
+ code is a confidential and/or proprietary product of Presagis Canada Inc.
+ and/or its subsidiaries and affiliated companies. (&quot;Presagis&quot;) and is
+ protected by copyright laws. The use of the Software is subject to the terms
+ of the Presagis Software License Agreement.
+
+ (c) Copyright 2014, All Rights Reserved.
+
+ AVIS IMPORTANT: Ce logiciel incluant le code source est de l&apos;information
+ confidentielle et/ou propriete de Presagis Canada Inc. et/ou ses filiales et
+ compagnies affiliees (&quot;Presagis&quot;) et est protege par les lois sur le droit
+ d&apos;auteur. L&apos;utilisation de ce logiciel est sujet aux termes d&apos;une licence de
+ Presagis.
+
+ (c) Copyright 2014, Tous droits réservés.
+
+=============================================================================
+-->
+
+<!DOCTYPE gradient_table PUBLIC "-//PresagisCanada//DTD VapsXT 18.0" "file:///C:/VAPSXTDTD/VapsXT_18.dtd">
+
+<gradient_table name="DefGradients" max_num_gradients="127">
+  <gradient_defn index="0" name="vxtDoNotUse" startcolor_r="255" startcolor_g="255" startcolor_b="255" startcolor_a="255" endcolor_r="255" endcolor_g="255" endcolor_b="255" endcolor_a="255" startpoint_x="127" startpoint_y="128" endpoint_x="128" endpoint_y="128" extend="0" startradius="20" endradius="156" radial="1"/>
+  <gradient_defn index="1" name="vxtGold" startcolor_r="124" startcolor_g="120" startcolor_b="13" startcolor_a="255" endcolor_r="251" endcolor_g="246" endcolor_b="120" endcolor_a="255" startpoint_x="1" startpoint_y="10" endpoint_x="93" endpoint_y="105" extend="1" startradius="0" endradius="1" radial="0"/>
+  <gradient_defn index="2" name="vxtGlassBlue" startcolor_r="20" startcolor_g="114" startcolor_b="255" startcolor_a="255" endcolor_r="255" endcolor_g="255" endcolor_b="255" endcolor_a="255" startpoint_x="2" startpoint_y="8" endpoint_x="98" endpoint_y="98" extend="1" startradius="0" endradius="1" radial="0"/>
+  <gradient_defn index="3" name="vxtMetalBlack" startcolor_r="43" startcolor_g="43" startcolor_b="43" startcolor_a="255" endcolor_r="124" endcolor_g="124" endcolor_b="124" endcolor_a="255" startpoint_x="105" startpoint_y="94" endpoint_x="2" endpoint_y="6" extend="1" startradius="0" endradius="1" radial="0"/>
+  <gradient_defn index="4" name="vxtMetalBlack2" startcolor_r="0" startcolor_g="0" startcolor_b="0" startcolor_a="255" endcolor_r="255" endcolor_g="255" endcolor_b="255" endcolor_a="255" startpoint_x="0" startpoint_y="3" endpoint_x="189" endpoint_y="209" extend="0" startradius="22" endradius="145" radial="1"/>
+  <gradient_defn index="5" name="vxtMetalBlack3" startcolor_r="0" startcolor_g="0" startcolor_b="0" startcolor_a="255" endcolor_r="132" endcolor_g="132" endcolor_b="132" endcolor_a="255" startpoint_x="163" startpoint_y="108" endpoint_x="0" endpoint_y="121" extend="0" startradius="0" endradius="1" radial="0"/>
+  <gradient_defn index="6" name="vxtBluish" startcolor_r="16" startcolor_g="0" startcolor_b="209" startcolor_a="255" endcolor_r="0" endcolor_g="219" endcolor_b="249" endcolor_a="255" startpoint_x="0" startpoint_y="101" endpoint_x="191" endpoint_y="96" extend="0" startradius="0" endradius="1" radial="0"/>
+  <gradient_defn index="7" name="vxtDarkBlue" startcolor_r="7" startcolor_g="91" startcolor_b="110" startcolor_a="255" endcolor_r="30" endcolor_g="143" endcolor_b="178" endcolor_a="255" startpoint_x="0" startpoint_y="0" endpoint_x="36" endpoint_y="54" extend="1" startradius="0" endradius="1" radial="0"/>
+  <gradient_defn index="8" name="vxtDarkBlue2" startcolor_r="26" startcolor_g="108" startcolor_b="126" startcolor_a="255" endcolor_r="17" endcolor_g="197" endcolor_b="221" endcolor_a="255" startpoint_x="53" startpoint_y="49" endpoint_x="188" endpoint_y="206" extend="0" startradius="0" endradius="1" radial="0"/>
+  <gradient_defn index="9" name="vxtReddish" startcolor_r="234" startcolor_g="0" startcolor_b="0" startcolor_a="255" endcolor_r="255" endcolor_g="170" endcolor_b="71" endcolor_a="255" startpoint_x="192" startpoint_y="91" endpoint_x="-3" endpoint_y="93" extend="0" startradius="0" endradius="1" radial="0"/>
+  <gradient_defn index="10" name="vxtBrownish" startcolor_r="79" startcolor_g="86" startcolor_b="0" startcolor_a="255" endcolor_r="144" endcolor_g="147" endcolor_b="0" endcolor_a="255" startpoint_x="81" startpoint_y="76" endpoint_x="-3" endpoint_y="3" extend="1" startradius="0" endradius="1" radial="0"/>
+  <gradient_defn index="11" name="vxtBrownish2" startcolor_r="79" startcolor_g="86" startcolor_b="0" startcolor_a="255" endcolor_r="144" endcolor_g="147" endcolor_b="0" endcolor_a="255" startpoint_x="81" startpoint_y="117" endpoint_x="81" endpoint_y="107" extend="1" startradius="0" endradius="1" radial="0"/>
+  <gradient_defn index="12" name="vxtBrownish3" startcolor_r="89" startcolor_g="96" startcolor_b="0" startcolor_a="255" endcolor_r="144" endcolor_g="145" endcolor_b="73" endcolor_a="255" startpoint_x="25" startpoint_y="44" endpoint_x="48" endpoint_y="89" extend="1" startradius="50" endradius="26" radial="1"/>
+  <gradient_defn index="13" name="vxtGreenYellow" startcolor_r="20" startcolor_g="255" startcolor_b="29" startcolor_a="255" endcolor_r="249" endcolor_g="255" endcolor_b="0" endcolor_a="255" startpoint_x="0" startpoint_y="5" endpoint_x="192" endpoint_y="1" extend="0" startradius="0" endradius="1" radial="0"/>
+  <gradient_defn index="14" name="vxtYellowRed" startcolor_r="250" startcolor_g="255" startcolor_b="0" startcolor_a="255" endcolor_r="249" endcolor_g="0" endcolor_b="0" endcolor_a="255" startpoint_x="0" startpoint_y="2" endpoint_x="194" endpoint_y="3" extend="0" startradius="0" endradius="1" radial="0"/>
+  <gradient_defn index="15" name="vxtWindowsBlue" startcolor_r="9" startcolor_g="36" startcolor_b="107" startcolor_a="255" endcolor_r="168" endcolor_g="196" endcolor_b="239" endcolor_a="255" startpoint_x="0" startpoint_y="106" endpoint_x="193" endpoint_y="106" extend="0" startradius="0" endradius="1" radial="0"/>
+  <gradient_defn index="16" name="vxtWindowsBrown" startcolor_r="127" startcolor_g="127" startcolor_b="127" startcolor_a="255" endcolor_r="191" endcolor_g="191" endcolor_b="191" endcolor_a="255" startpoint_x="-2" startpoint_y="103" endpoint_x="191" endpoint_y="106" extend="0" startradius="0" endradius="1" radial="0"/>
+  <gradient_defn index="17" name="vxtBlueLoop" startcolor_r="5" startcolor_g="105" startcolor_b="255" startcolor_a="255" endcolor_r="132" endcolor_g="200" endcolor_b="229" endcolor_a="255" startpoint_x="191" startpoint_y="4" endpoint_x="140" endpoint_y="63" extend="0" startradius="34" endradius="32" radial="1"/>
+  <gradient_defn index="18" name="vxtSliver" startcolor_r="143" startcolor_g="143" startcolor_b="140" startcolor_a="255" endcolor_r="225" endcolor_g="222" endcolor_b="222" endcolor_a="255" startpoint_x="0" startpoint_y="0" endpoint_x="83" endpoint_y="2" extend="1" startradius="0" endradius="1" radial="0"/>
+  <gradient_defn index="19" name="vxtMetalSilver" startcolor_r="143" startcolor_g="143" startcolor_b="140" startcolor_a="255" endcolor_r="225" endcolor_g="225" endcolor_b="225" endcolor_a="255" startpoint_x="0" startpoint_y="0" endpoint_x="0" endpoint_y="208" extend="0" startradius="0" endradius="1" radial="0"/>
+  <gradient_defn index="20" name="vxtGreyRadial" startcolor_r="0" startcolor_g="0" startcolor_b="0" startcolor_a="255" endcolor_r="127" endcolor_g="127" endcolor_b="127" endcolor_a="255" startpoint_x="127" startpoint_y="128" endpoint_x="127" endpoint_y="127" extend="2" startradius="69" endradius="11" radial="1"/>
+  <gradient_defn index="21" name="vxtSliverRadial" startcolor_r="143" startcolor_g="143" startcolor_b="143" startcolor_a="255" endcolor_r="225" endcolor_g="225" endcolor_b="225" endcolor_a="255" startpoint_x="127" startpoint_y="128" endpoint_x="127" endpoint_y="127" extend="1" startradius="100" endradius="1" radial="1"/>
+  <gradient_defn index="22" name="vxtBrownRadial" startcolor_r="124" startcolor_g="120" startcolor_b="13" startcolor_a="255" endcolor_r="234" endcolor_g="239" endcolor_b="0" endcolor_a="255" startpoint_x="127" startpoint_y="128" endpoint_x="127" endpoint_y="127" extend="1" startradius="100" endradius="50" radial="1"/>
+  <gradient_defn index="23" name="vxtBlackRadial" startcolor_r="1" startcolor_g="1" startcolor_b="1" startcolor_a="255" endcolor_r="255" endcolor_g="255" endcolor_b="255" endcolor_a="255" startpoint_x="127" startpoint_y="128" endpoint_x="127" endpoint_y="127" extend="1" startradius="100" endradius="50" radial="1"/>
+  <gradient_defn index="24" name="vxtBlackRadial2" startcolor_r="0" startcolor_g="0" startcolor_b="0" startcolor_a="255" endcolor_r="186" endcolor_g="186" endcolor_b="186" endcolor_a="255" startpoint_x="127" startpoint_y="128" endpoint_x="127" endpoint_y="127" extend="1" startradius="100" endradius="1" radial="1"/>
+  <gradient_defn index="25" name="vxtBlueRadial" startcolor_r="7" startcolor_g="91" startcolor_b="110" startcolor_a="255" endcolor_r="0" endcolor_g="174" endcolor_b="229" endcolor_a="255" startpoint_x="127" startpoint_y="128" endpoint_x="127" endpoint_y="127" extend="1" startradius="100" endradius="50" radial="1"/>
+  <gradient_defn index="26" name="vxtBlueRadial2" startcolor_r="7" startcolor_g="91" startcolor_b="111" startcolor_a="255" endcolor_r="0" endcolor_g="174" endcolor_b="229" endcolor_a="255" startpoint_x="127" startpoint_y="128" endpoint_x="127" endpoint_y="127" extend="1" startradius="100" endradius="1" radial="1"/>
+  <gradient_defn index="27" name="vxtGreenTransparent" startcolor_r="0" startcolor_g="255" startcolor_b="0" startcolor_a="255" endcolor_r="0" endcolor_g="255" endcolor_b="0" endcolor_a="0" startpoint_x="169" startpoint_y="2" endpoint_x="73" endpoint_y="115" extend="0" startradius="0" endradius="1" radial="0"/>
+  <gradient_defn index="28" name="vxtGreenRadial2" startcolor_r="0" startcolor_g="0" startcolor_b="0" startcolor_a="255" endcolor_r="45" endcolor_g="254" endcolor_b="66" endcolor_a="255" startpoint_x="127" startpoint_y="128" endpoint_x="127" endpoint_y="127" extend="1" startradius="100" endradius="75" radial="1"/>
+  <gradient_defn index="29" name="vxtGreenRadial" startcolor_r="15" startcolor_g="193" startcolor_b="0" startcolor_a="255" endcolor_r="9" endcolor_g="239" endcolor_b="19" endcolor_a="255" startpoint_x="127" startpoint_y="128" endpoint_x="127" endpoint_y="127" extend="1" startradius="100" endradius="50" radial="1"/>
+  <gradient_defn index="30" name="vxtRedRadial" startcolor_r="193" startcolor_g="0" startcolor_b="0" startcolor_a="255" endcolor_r="241" endcolor_g="8" endcolor_b="8" endcolor_a="255" startpoint_x="127" startpoint_y="128" endpoint_x="127" endpoint_y="127" extend="1" startradius="100" endradius="50" radial="1"/>
+  <gradient_defn index="31" name="vxtVerticalBlue" startcolor_r="35" startcolor_g="110" startcolor_b="254" startcolor_a="255" endcolor_r="0" endcolor_g="18" endcolor_b="117" endcolor_a="255" startpoint_x="93" startpoint_y="212" endpoint_x="92" endpoint_y="3" extend="0" startradius="0" endradius="1" radial="0"/>
+  <gradient_defn index="32" name="vxtMetalRed" startcolor_r="194" startcolor_g="146" startcolor_b="111" startcolor_a="255" endcolor_r="125" endcolor_g="83" endcolor_b="52" endcolor_a="255" startpoint_x="0" startpoint_y="0" endpoint_x="0" endpoint_y="208" extend="0" startradius="0" endradius="1" radial="0"/>
+</gradient_table>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE project PUBLIC "-//PresagisCanada//DTD VapsXT 18.0" "file:///C:/VAPSXTDTD/VapsXT_18.dtd">
+
+<project name="Tables.vprj">
+  <file name="AttributeTables.vprj" path="Attributes"/>
+  <file name="AudioTable.vprj" path="Audio"/>
+  <file name="EasingFunctionTable.vprj" path="EasingFunction"/>
+  <file name="ErrorCodeTable.vprj" path="ErrorCode"/>
+  <file name="FontTable.vprj" path="Font"/>
+  <file name="ImageTable.vprj" path="Images"/>
+  <file name="LocalizationTable.vprj" path="Localization"/>
+  <file name="SkinnedRectTable.vprj" path="SkinnedRectTable"/>
+  <file name="VectorFonts.vprj" path="VectorFonts"/>
+  <file name="VideoTable.vprj" path="Video"/>
+</project>

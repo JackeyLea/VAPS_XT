@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+=============================================================================
+ $URL: http://svn/svn/VAPSXT178/branches/XT/4.1/VAPSXT_DIR/Projects/StandardRootProjects/Tables/Attributes/DefOpacity.votb $
+
+ Code Category: Certifiable
+
+ Version: $Revision: 44819 $
+
+ Last Revision $Author: mdosogne $
+
+ Last Revision $Date: 2015-02-04 17:16:55 -0500 (Wed, 04 Feb 2015) $
+
+ IMPORTANT NOTICE: This software program (&quot;Software&quot;) including the source
+ code is a confidential and/or proprietary product of Presagis Canada Inc.
+ and/or its subsidiaries and affiliated companies. (&quot;Presagis&quot;) and is
+ protected by copyright laws. The use of the Software is subject to the terms
+ of the Presagis Software License Agreement.
+
+ (c) Copyright 2014, All Rights Reserved.
+
+ AVIS IMPORTANT: Ce logiciel incluant le code source est de l&apos;information
+ confidentielle et/ou propriete de Presagis Canada Inc. et/ou ses filiales et
+ compagnies affiliees (&quot;Presagis&quot;) et est protege par les lois sur le droit
+ d&apos;auteur. L&apos;utilisation de ce logiciel est sujet aux termes d&apos;une licence de
+ Presagis.
+
+ (c) Copyright 2014, Tous droits réservés.
+
+=============================================================================
+-->
+
+<!DOCTYPE opacity_table PUBLIC "-//PresagisCanada//DTD VapsXT 18.0" "file:///C:/VAPSXTDTD/VapsXT_18.dtd">
+
+<opacity_table name="DefOpacity" max_num_opacities="127">
+  <opacity_defn index="0" name="stdOpaque" value="1"/>
+  <opacity_defn index="1" name="vxtOpaque95" value="0.95"/>
+  <opacity_defn index="2" name="vxtOpaque90" value="0.9"/>
+  <opacity_defn index="3" name="vxtOpaque85" value="0.85"/>
+  <opacity_defn index="4" name="vxtOpaque80" value="0.8"/>
+  <opacity_defn index="5" name="vxtOpaque75" value="0.75"/>
+  <opacity_defn index="6" name="vxtOpaque70" value="0.7"/>
+  <opacity_defn index="7" name="vxtOpaque65" value="0.65"/>
+  <opacity_defn index="8" name="vxtOpaque60" value="0.6"/>
+  <opacity_defn index="9" name="vxtOpaque55" value="0.55"/>
+  <opacity_defn index="10" name="vxtOpaque50" value="0.5"/>
+  <opacity_defn index="11" name="vxtOpaque45" value="0.45"/>
+  <opacity_defn index="12" name="vxtOpaque40" value="0.4"/>
+  <opacity_defn index="13" name="vxtOpaque35" value="0.35"/>
+  <opacity_defn index="14" name="vxtOpaque30" value="0.3"/>
+  <opacity_defn index="15" name="vxtOpaque25" value="0.25"/>
+  <opacity_defn index="16" name="vxtOpaque20" value="0.2"/>
+  <opacity_defn index="17" name="vxtOpaque15" value="0.15"/>
+  <opacity_defn index="18" name="vxtOpaque10" value="0.1"/>
+  <opacity_defn index="19" name="vxtOpaque05" value="0.05"/>
+  <opacity_defn index="20" name="stdTransparent" value="0"/>
+</opacity_table>

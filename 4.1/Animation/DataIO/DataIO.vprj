@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE project PUBLIC "-//PresagisCanada//DTD VapsXT 18.0" "file:///C:/VAPSXTDTD/VapsXT_18.dtd">
+
+<project name="DataIO.vprj">
+  <file name="Connections.xml" path=".\\"/>
+  <file name="Mappings.vcm" path=".\\"/>
+  <file name="Float50.dd" path=".\\"/>
+  <file name="sndFloat50.vcls" path=".\\"/>
+  <file name="rcvFloat50.vcls" path=".\\"/>
+</project>

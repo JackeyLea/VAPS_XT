@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE table PUBLIC "-//PresagisCanada//DTD VapsXT 18.0" "file:///C:/VAPSXTDTD/VapsXT_18.dtd">
+
+<table name="VideoTable" type="VideoTableType">
+  <model>
+    <prop name="DefaultValue">ButtonInVAPSXT</prop>
+    <prop name="BkColor">stdBlack</prop>
+    <prop name="DrawingUnit">Pixel</prop>
+  </model>
+  <object name="ButtonInVAPSXT" class="VideoTableElement" guid="14cb7308-4b21-4c1a-b431-f63ba3bc68d8">
+    <model>
+      <prop name="VideoFile">ButtonInVAPSXT.wmv</prop>
+      <prop name="VideoId">0</prop>
+    </model>
+  </object>
+</table>
