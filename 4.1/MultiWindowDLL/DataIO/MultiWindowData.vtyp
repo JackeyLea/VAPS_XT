@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
-<!DOCTYPE type_decl PUBLIC "-//PresagisCanada//DTD VapsXT 18.0" "file:///C:/VAPSXTDTD/VapsXT_18.dtd">
-
-<type_decl name="MultiWindowData" cpp_class="vxtTypMultiWindowData" c_struct="vxtCTypMultiWindowData" build_output_location="VAPSXT_Install">
-  <struct_type>
-    <sfield name="Mode"         type="Int"/>
-  </struct_type>
-</type_decl>
